@@ -1,5 +1,5 @@
 // ⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈
-//▮ZIM BOT INC 2022 ®️ALL RIGHTS RESERVED
+//▮YASIR TANVEER INC 2022 ®️ALL RIGHTS RESERVED
 //▮
 //▮FORK AND DON'T FORGET TO GIVE A STAR
 //▮
@@ -8,7 +8,7 @@
 //▮REPORT ABUSE OF THIS SOFTWARE EMAIL US
 //▮reinhardtuna@mail.uk
 //▮WHATSAPP US : +44 7441 437150
-//▮YOUTUBE CHANNELL: https://youtube.com/c/DRIPSOFC
+//▮YOUTUBE CHANNELL: https://youtube.com/c/Apna BotOFC
 //▮
 //╰▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
 //
@@ -43,7 +43,7 @@ const { JSDOM } = require('jsdom')
 const speed = require('performance-now')
 const { performance } = require('perf_hooks')
 const { Primbon } = require('scrape-primbon')
-const Config = require('./drips');
+const Config = require('./Apna Bot');
 const simpleGit = require('simple-git');
 const git = simpleGit();
 const Heroku = require('heroku-client');
@@ -66,15 +66,15 @@ const { isLimit, limitAdd, getLimit, giveLimit, addBalance, kurangBalance, getBa
 //xp and leveling database⧈⧈⧈⧈
 
 //message type
-/* let drips = fs.readFileSync('./Zimbot/drips.jpg') 
+/* let Apna Bot = fs.readFileSync('./Zimbot/Apna Bot.jpg') 
 */
 
 //database
-const  dripsno = JSON.parse(fs.readFileSync('./database/antilink.json'))
+const  Apna Botno = JSON.parse(fs.readFileSync('./database/antilink.json'))
 const _level = JSON.parse(fs.readFileSync('./database/leveluser.json'))
 const _petualang = JSON.parse(fs.readFileSync('./database/inventori.json'))
 const balance = JSON.parse(fs.readFileSync('./database/balance.json'))
-const dripsanti = JSON.parse(fs.readFileSync('./lib/rude.json'))
+const Apna Botanti = JSON.parse(fs.readFileSync('./lib/rude.json'))
 let bad = JSON.parse(fs.readFileSync('./lib/rude.json'))
 global.db = JSON.parse(fs.readFileSync('./src/database.json'))
 if (global.db) global.db = {
@@ -126,9 +126,9 @@ const groupAdmins = m.isGroup ? await participants.filter(v => v.admin !== null)
 const groupOwner = m.isGroup ? groupMetadata.owner : ''
 const isBotAdmins = m.isGroup ? groupAdmins.includes(botNumber) : false
 const isAdmins = m.isGroup ? groupAdmins.includes(m.sender) : false
-const isAntinsfw = m.isGroup ?  dripsno.includes(m.chat) : false
+const isAntinsfw = m.isGroup ?  Apna Botno.includes(m.chat) : false
 const isPremium = isCreator || global.premium.map(v => v.replace(/[^0-9]/g, '') + '@s.whatsapp.net').includes(m.sender) || false
-const antiToxic = m.isGroup ? dripsanti.includes(from) : false
+const antiToxic = m.isGroup ? Apna Botanti.includes(from) : false
 const zimbotincv3 = body.slice(0).trim().split(/ +/).shift().toLowerCase()
 //-----END HERE------\\
 
@@ -172,10 +172,10 @@ return dDisplay + hDisplay + mDisplay + sDisplay;
 
 
 const reply = (teks) => {
-    ZimBotInc.sendMessage(m.chat, {text: teks, contextInfo: {"externalAdReply": {title: "ZIM BOT V4",mediaType: 3, renderLargerThumbnail: false, showAdAttribution: true, detectLinks: true,body: "DRIPS OFC", thumbnail: fs.readFileSync('./drips.jpg'),sourceUrl: ("https://youtu.be/KNu-gr2h7bo")}}})
+    ZimBotInc.sendMessage(m.chat, {text: teks, contextInfo: {"externalAdReply": {title: "YASIR TANVEER V4",mediaType: 3, renderLargerThumbnail: false, showAdAttribution: true, detectLinks: true,body: "Apna Bot OFC", thumbnail: fs.readFileSync('./Apna Bot.jpg'),sourceUrl: ("https://youtu.be/KNu-gr2h7bo")}}})
 }
 const replay = (teks) => {
-    ZimBotInc.sendMessage(m.chat, {text: teks, contextInfo: {"externalAdReply": {title: "ZIM BOT V4",mediaType: 3, renderLargerThumbnail: false, showAdAttribution: true, body: "DRIPS OFC", thumbnail: fs.readFileSync('./drips.jpg'),sourceUrl: ("https://youtu.be/KNu-gr2h7bo")}}})
+    ZimBotInc.sendMessage(m.chat, {text: teks, contextInfo: {"externalAdReply": {title: "YASIR TANVEER V4",mediaType: 3, renderLargerThumbnail: false, showAdAttribution: true, body: "Apna Bot OFC", thumbnail: fs.readFileSync('./Apna Bot.jpg'),sourceUrl: ("https://youtu.be/KNu-gr2h7bo")}}})
 }
 
 const drip =  {
@@ -188,13 +188,13 @@ participant : '0@s.whatsapp.net'
     isForwarded: false, // ini biar ada tulisannya diteruskan berkali-kali, jika ingin di hilangkan ganti true menjadi false
  // Bagian ini sesuka kalian berkreasi :'v
 showAdAttribution: true,
-title: "ZIM BOT V4",
+title: "YASIR TANVEER V4",
 body: "GIVE IT A STAR",
 mediaType: "VIDEO",
-mediaUrl: `https://githb.com/zim-bot/zimbot-v4`,
-description: 'DRIPS OFC',
+mediaUrl: `https://stationeryinn.pk`,
+description: 'Apna Bot OFC',
 previewType: "PHOTO",
-thumbnail: fs.readFileSync('./drips.jpg'),
+thumbnail: fs.readFileSync('./Apna Bot.jpg'),
 sourceUrl: "",
 detectLinks: false,
     }}
@@ -209,8 +209,8 @@ participant : '0@s.whatsapp.net'
   message: {
   documentMessage: {
 showAdAttribution: true,
-  title: "ZIM BOT V4", 
-  jpegThumbnail: fs.readFileSync('./drips.jpg')
+  title: "YASIR TANVEER V4", 
+  jpegThumbnail: fs.readFileSync('./Apna Bot.jpg')
 }
 }
  }
@@ -224,9 +224,9 @@ showAdAttribution: true,
                },
     message: { 
        "extendedTextMessage": {
-                "text":'SUB DRIPS OFC',
-                "title": 'ZIM BOT-V4',
-                'jpegThumbnail': fs.readFileSync('./drips.jpg')
+                "text":'SUB Apna Bot OFC',
+                "title": 'YASIR TANVEER-V4',
+                'jpegThumbnail': fs.readFileSync('./Apna Bot.jpg')
              }
            } 
           }
@@ -341,17 +341,17 @@ if (!m.key.fromMe) return
 
 //push message to console && autoread
 
-const Drips = require('drips-memes')
+const Apna Bot = require('Apna Bot-memes')
 colors = ['red', 'white', 'black', 'blue', 'yellow', 'green']
 let d = new Date(new Date + 3600000)
 let locale = 'id'
 let time = d.toLocaleString(locale, { hour: 'numeric', minute: 'numeric', second: 'numeric', timeZone: 'Africa/Harare'})
 const { color } = require('./lib/color')
 if (isCmd && !m.isGroup)
-console.log(color('[ RECIEVED ]'), color(time, 'red'), color(`${command} [${args.length}]`), Drips.hr(), 'FROM', color(pushname))
+console.log(color('[ RECIEVED ]'), color(time, 'red'), color(`${command} [${args.length}]`), Apna Bot.hr(), 'FROM', color(pushname))
 
 if (isCmd && m.isGroup)
-console.log(color('[ RECIEVED ]'), color(time, 'red'), color(`${command} [${args.length}]`), Drips.hr(), 'FROM', color(pushname), 'in', color(groupName))
+console.log(color('[ RECIEVED ]'), color(time, 'red'), color(`${command} [${args.length}]`), Apna Bot.hr(), 'FROM', color(pushname), 'in', color(groupName))
 
 //leveling
 const levelRole = getLevelingLevel(sender, _level)
@@ -383,21 +383,21 @@ var petnya = ['😾','🐺','🦊','🐶','🐰']
 var makan = ['🌭','🌮','🌯','🍙','🍝','🍕','🍘','🍟','🍞','🍖','🍡']
 var buahan = ['🍇','🍎','🍏','🍐','🍒','🍊','🍋','🍑','🍓']
 //CHATBOT
-if (global.dripsreadgroup) {
+if (global.Apna Botreadgroup) {
 if (m.isGroup) { ZimBotInc.sendReadReceipt(m.chat, m.sender, [m.key.id]) }
 }
-if (global.dripsreadall) { if (m.message) { ZimBotInc.sendReadReceipt(m.chat, m.sender, [m.key.id]) }
+if (global.Apna Botreadall) { if (m.message) { ZimBotInc.sendReadReceipt(m.chat, m.sender, [m.key.id]) }
 }
-if (global.dripsrecord) { if (m.chat) { ZimBotInc.sendPresenceUpdate('recording', m.chat) }
+if (global.Apna Botrecord) { if (m.chat) { ZimBotInc.sendPresenceUpdate('recording', m.chat) }
 }
 
-if (global.dripstyping) { if (m.chat) { ZimBotInc.sendPresenceUpdate('composing', m.chat) }
+if (global.Apna Bottyping) { if (m.chat) { ZimBotInc.sendPresenceUpdate('composing', m.chat) }
 }
 if (global.available) { if (m.chat) { ZimBotInc.sendPresenceUpdate('available', m.chat) }
 }
 if (global.unavailable) { if (m.chat) { ZimBotInc.sendPresenceUpdate('unavailable', m.chat) }
 }
-//RPG FUNCTION BY DRIPS
+//RPG FUNCTION BY Apna Bot
 function randomNomor(min, max = null) {
   if (max !== null) {
   min = Math.ceil(min);
@@ -411,8 +411,8 @@ function randomNomor(min, max = null) {
 function pickRandom(list) {
   return list[Math.floor(list.length * Math.random())]
   }
-let beedrips = [f1,f2,f3,f4,f5,f6]
-        let dripsee = pickRandom(beedrips)
+let beeApna Bot = [f1,f2,f3,f4,f5,f6]
+        let Apna Botee = pickRandom(beeApna Bot)
 /*
 if (budy.includes("://chat.whatsapp.com/")) {
   console.log(
@@ -508,11 +508,11 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: DADYDR,
-hydratedFooterText: `ʀᴘɢ ɢᴀᴍᴇ ʙʏ ᴢɪᴍʙᴏᴛ`,
+hydratedFooterText: `ʀᴘɢ ɢᴀᴍᴇ ʙʏ Yasir Tanveer`,
 hydratedButtons:  [{        
     "urlButton": {
       "displayText": "SUBSCRIBE",
-      "url": "https://www.youtube.com/c/DRIPSOFC"
+      "url": "https://stationeryinn.pk"
     }
 }, {
 quickReplyButton: {
@@ -565,7 +565,7 @@ ZimBotInc.relayMessage(m.chat, template.message, { messageId: template.key.id })
   hydratedButtons:  [{        
       "urlButton": {
         "displayText": "SUBSCRIBE",
-        "url": "https://www.youtube.com/c/DRIPSOFC"
+        "url": "https://stationeryinn.pk"
       }
   }, {
   quickReplyButton: {
@@ -614,7 +614,7 @@ ZimBotInc.relayMessage(m.chat, template.message, { messageId: template.key.id })
           hydratedButtons:  [{        
               "urlButton": {
                 "displayText": "SUBSCRIBE",
-                "url": "https://www.youtube.com/c/DRIPSOFC"
+                "url": "https://stationeryinn.pk"
               }
           }, {
           quickReplyButton: {
@@ -663,7 +663,7 @@ ZimBotInc.relayMessage(m.chat, template.message, { messageId: template.key.id })
             hydratedButtons:  [{        
                 "urlButton": {
                   "displayText": "SUBSCRIBE",
-                  "url": "https://www.youtube.com/c/DRIPSOFC"
+                  "url": "https://stationeryinn.pk"
                 }
             }, {
             quickReplyButton: {
@@ -712,7 +712,7 @@ ZimBotInc.relayMessage(m.chat, template.message, { messageId: template.key.id })
             hydratedButtons:  [{        
                 "urlButton": {
                   "displayText": "SUBSCRIBE",
-                  "url": "https://www.youtube.com/c/DRIPSOFC"
+                  "url": "https://stationeryinn.pk"
                 }
             }, {
             quickReplyButton: {
@@ -762,7 +762,7 @@ ZimBotInc.relayMessage(m.chat, template.message, { messageId: template.key.id })
               hydratedButtons: [{        
               "urlButton": {
               "displayText": "SUBSCRIBE",
-              "url": "https://www.youtube.com/c/DRIPSOFC"
+              "url": "https://stationeryinn.pk"
               }
             }, {
               quickReplyButton: {
@@ -813,7 +813,7 @@ ZimBotInc.relayMessage(m.chat, template.message, { messageId: template.key.id })
               hydratedButtons: [{        
               "urlButton": {
               "displayText": "SUBSCRIBE",
-              "url": "https://www.youtube.com/c/DRIPSOFC"
+              "url": "https://stationeryinn.pk"
               }
             }, {
               quickReplyButton: {
@@ -859,7 +859,7 @@ ZimBotInc.relayMessage(m.chat, template.message, { messageId: template.key.id })
             hydratedButtons:  [{        
                 "urlButton": {
                   "displayText": "SUBSCRIBE",
-                  "url": "https://www.youtube.com/c/DRIPSOFC"
+                  "url": "https://stationeryinn.pk"
                 }
             }, {
             quickReplyButton: {
@@ -885,7 +885,7 @@ ZimBotInc.relayMessage(m.chat, template.message, { messageId: template.key.id })
             emoji.get(satu)
             .then(emoji => {
             const buttons = [{buttonId: "y", buttonText: {displayText:satu}, type: 1}]
-            const buttonMessage = {image: {url: emoji.images[dua].url},caption: "ZIM BOT V4",footerText: 'Loading...',buttons: buttons,headerType: 4}
+            const buttonMessage = {image: {url: emoji.images[dua].url},caption: "YASIR TANVEER V4",footerText: 'Loading...',buttons: buttons,headerType: 4}
             ZimBotInc.sendMessage(from, buttonMessage, {quoted:m})
             })
             } catch (e) {
@@ -1177,8 +1177,8 @@ setInterval(() => {
 //But5Loc
 var nextMinutes = Math.random() * 300 + 30;
 setTimeout(function(){
-  ZimBotInc.sendMessage(ZimBotInc.user.id, {text: `*ZIM BOT INC ANNOUNCEMENT:* *SUBSCRIBE TO DRIPS OFC*\n\n*YOUTUBE:* https://www.youtube.com/c/DRIPSOFC\n\n*NEW FEATURES COMING SOON SO STAY TUNED*\n\n*FEEL FREE TO BRING IDEAS OF THE FEATURES ON THE TABLE*\n\n*IF YOU WANT TO CONTRUBUTE FORK THE REPO, MAKE CHANGES PUSH YOUR CHANGES TO THE ORIGIN BRANCH AND WAIT FOR YOUR PULL REQUEST TO BE VERIFIED*\n\n*Thanks for choosing zim-bot*`,contextInfo: { externalAdReply:{title:"ZIM BOT V4",body:"SUBSCRIBE DRIPS OFC",showAdAttribution: true,mediaType:2,thumbnail: fs.readFileSync(`./drips.jpg`) ,mediaUrl:`https://youtu.be/KNu-gr2h7bo`, sourceUrl: `https://youtu.be/KNu-gr2h7bo` }}}, {quoted: m})
-  //anouncement by drips 
+  ZimBotInc.sendMessage(ZimBotInc.user.id, {text: `*YASIR TANVEER INC ANNOUNCEMENT:* *SUBSCRIBE TO Apna Bot OFC*\n\n*YOUTUBE:* https://stationeryinn.pk\n\n*NEW FEATURES COMING SOON SO STAY TUNED*\n\n*FEEL FREE TO BRING IDEAS OF THE FEATURES ON THE TABLE*\n\n*IF YOU WANT TO CONTRUBUTE FORK THE REPO, MAKE CHANGES PUSH YOUR CHANGES TO THE ORIGIN BRANCH AND WAIT FOR YOUR PULL REQUEST TO BE VERIFIED*\n\n*Thanks for choosing zim-bot*`,contextInfo: { externalAdReply:{title:"YASIR TANVEER V4",body:"SUBSCRIBE Apna Bot OFC",showAdAttribution: true,mediaType:2,thumbnail: fs.readFileSync(`./Apna Bot.jpg`) ,mediaUrl:`https://youtu.be/KNu-gr2h7bo`, sourceUrl: `https://youtu.be/KNu-gr2h7bo` }}}, {quoted: m})
+  //anouncement by Apna Bot 
 }, nextMinutes * 300 * 1000);
 const send5Butlmg = async (jid , text = '' , footer = '', img, but = [], options = {}) =>{
     var template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
@@ -1204,7 +1204,7 @@ cron.schedule('00 12 * * *', () => {
  scheduled: true,
  timezone: "Africa/Harare"
 })
-//script by drips   
+//script by Apna Bot   
 //respond to cmd
 if (isMedia && m.msg.fileSha256 && (m.msg.fileSha256.toString('base64') in global.db.sticker)) {
 let hash = global.db.sticker[m.msg.fileSha256.toString('base64')]
@@ -1251,7 +1251,7 @@ if (tebaklagu.hasOwnProperty(m.sender.split('@')[0]) && isCmd) {
  kuis = true
  jawaban = tebaklagu[m.sender.split('@')[0]]
  if (budy.toLowerCase() == jawaban) {
-   await ZimBotInc.sendButtonText(m.chat, [{ buttonId: 'tebak lagu', buttonText: { displayText: 'GUESS THE MUSIC' }, type: 1 }], ` Guess The Song\n\nCorrect Answer 🎉\n\nWant to play again? ZIM BOT INC`, ZimBotInc.user.name, m)
+   await ZimBotInc.sendButtonText(m.chat, [{ buttonId: 'tebak lagu', buttonText: { displayText: 'GUESS THE MUSIC' }, type: 1 }], ` Guess The Song\n\nCorrect Answer 🎉\n\nWant to play again? YASIR TANVEER INC`, ZimBotInc.user.name, m)
    delete tebaklagu[m.sender.split('@')[0]]
  } else reply('*WRONG ANSWER!*')
 }
@@ -1269,7 +1269,7 @@ if (tebakgambar.hasOwnProperty(m.sender.split('@')[0]) && isCmd) {
  kuis = true
  jawaban = tebakgambar[m.sender.split('@')[0]]
  if (budy.toLowerCase() == jawaban) {
-   await ZimBotInc.sendButtonText(m.chat, [{ buttonId: 'tebak gambar', buttonText: { displayText: 'Guess The Picture' }, type: 1 }], ` Guess The Picture\n\nCorrect answer 🎉\n\nWant to play again? ZIM BOT INC`, ZimBotInc.user.name, m)
+   await ZimBotInc.sendButtonText(m.chat, [{ buttonId: 'tebak gambar', buttonText: { displayText: 'Guess The Picture' }, type: 1 }], ` Guess The Picture\n\nCorrect answer 🎉\n\nWant to play again? YASIR TANVEER INC`, ZimBotInc.user.name, m)
    delete tebakgambar[m.sender.split('@')[0]]
  } else reply('*WRONG ANSWER!*')
 }
@@ -1278,7 +1278,7 @@ if (tebakkata.hasOwnProperty(m.sender.split('@')[0]) && isCmd) {
  kuis = true
  jawaban = tebakkata[m.sender.split('@')[0]]
  if (budy.toLowerCase() == jawaban) {
-   await ZimBotInc.sendButtonText(m.chat, [{ buttonId: 'tebak kata', buttonText: { displayText: 'GUESS THE WORD' }, type: 1 }], `Guess The Word\n\nCorrect answer 🎉\n\nWant to play again? ZIM BOT INC`, ZimBotInc.user.name, m)
+   await ZimBotInc.sendButtonText(m.chat, [{ buttonId: 'tebak kata', buttonText: { displayText: 'GUESS THE WORD' }, type: 1 }], `Guess The Word\n\nCorrect answer 🎉\n\nWant to play again? YASIR TANVEER INC`, ZimBotInc.user.name, m)
    delete tebakkata[m.sender.split('@')[0]]
  } else reply('*WRONG ANSWER!*')
 }
@@ -1288,7 +1288,7 @@ if (caklontong.hasOwnProperty(m.sender.split('@')[0]) && isCmd) {
  jawaban = caklontong[m.sender.split('@')[0]]
     deskripsi = caklontong_desk[m.sender.split('@')[0]]
  if (budy.toLowerCase() == jawaban) {
-   await ZimBotInc.sendButtonText(m.chat, [{ buttonId: 'tebak lontong', buttonText: { displayText: 'GUESS LONTONG' }, type: 1 }], `Guess Lontong\n\nCorrect answer 🎉\n*${deskripsi}*\n\nWant to play again? ZIM BOT INC`, ZimBotInc.user.name, m)
+   await ZimBotInc.sendButtonText(m.chat, [{ buttonId: 'tebak lontong', buttonText: { displayText: 'GUESS LONTONG' }, type: 1 }], `Guess Lontong\n\nCorrect answer 🎉\n*${deskripsi}*\n\nWant to play again? YASIR TANVEER INC`, ZimBotInc.user.name, m)
    delete caklontong[m.sender.split('@')[0]]
 delete caklontong_desk[m.sender.split('@')[0]]
  } else reply('*WRONG ANSWER!*')
@@ -1298,7 +1298,7 @@ if (tebakkalimat.hasOwnProperty(m.sender.split('@')[0]) && isCmd) {
  kuis = true
  jawaban = tebakkalimat[m.sender.split('@')[0]]
  if (budy.toLowerCase() == jawaban) {
-   await ZimBotInc.sendButtonText(m.chat, [{ buttonId: 'tebak kalimat', buttonText: { displayText: 'Guess The Sentence' }, type: 1 }], ` Guess The Sentence \n\nCorrect answer 🎉\n\nWant to play again? ZIM BOT INC`, ZimBotInc.user.name, m)
+   await ZimBotInc.sendButtonText(m.chat, [{ buttonId: 'tebak kalimat', buttonText: { displayText: 'Guess The Sentence' }, type: 1 }], ` Guess The Sentence \n\nCorrect answer 🎉\n\nWant to play again? YASIR TANVEER INC`, ZimBotInc.user.name, m)
    delete tebakkalimat[m.sender.split('@')[0]]
  } else reply('*WRONG ANSWER!*')
 }
@@ -1307,7 +1307,7 @@ if (tebaklirik.hasOwnProperty(m.sender.split('@')[0]) && isCmd) {
  kuis = true
  jawaban = tebaklirik[m.sender.split('@')[0]]
  if (budy.toLowerCase() == jawaban) {
-   await ZimBotInc.sendButtonText(m.chat, [{ buttonId: 'tebak lirik', buttonText: { displayText: 'Guess The Lyrics' }, type: 1 }], ` Guess The Lyrics \n\nCorrect answer 🎉\n\nWant to play again? ZIM BOT INC`, ZimBotInc.user.name, m)
+   await ZimBotInc.sendButtonText(m.chat, [{ buttonId: 'tebak lirik', buttonText: { displayText: 'Guess The Lyrics' }, type: 1 }], ` Guess The Lyrics \n\nCorrect answer 🎉\n\nWant to play again? YASIR TANVEER INC`, ZimBotInc.user.name, m)
    delete tebaklirik[m.sender.split('@')[0]]
  } else reply('*WRONG ANSWER!*')
 }
@@ -1316,7 +1316,7 @@ if (tebaktebakan.hasOwnProperty(m.sender.split('@')[0]) && isCmd) {
  kuis = true
  jawaban = tebaktebakan[m.sender.split('@')[0]]
  if (budy.toLowerCase() == jawaban) {
-   await ZimBotInc.sendButtonText(m.chat, [{ buttonId: 'tebak tebakan', buttonText: { displayText: 'Riddles' }, type: 1 }], `Riddles \n\nCorrect answer 🎉\n\nWant to play again? ZIM BOT INC`, ZimBotInc.user.name, m)
+   await ZimBotInc.sendButtonText(m.chat, [{ buttonId: 'tebak tebakan', buttonText: { displayText: 'Riddles' }, type: 1 }], `Riddles \n\nCorrect answer 🎉\n\nWant to play again? YASIR TANVEER INC`, ZimBotInc.user.name, m)
    delete tebaktebakan[m.sender.split('@')[0]]
  } else reply('*WRONG ANSWER!*')
 }
@@ -2205,14 +2205,14 @@ Please @${m.mentionedJid[0].split`@`[0]} to type accept/reject`
  }
  break
   /*  case 'donasi': case 'donate': case 'sewabot': case 'sewa': case 'buypremium': case 'donate': {
-   ZimBotInc.sendMessage(m.chat, { image: { url: 'https://i.imgur.com/TfI3QYW.jpg' }, caption: `*𝗛𝗜 𝗕𝗥𝗢 ${m.pushName}*\n\n 𝗕𝗢𝗧 𝗥𝗘𝗡𝗧𝗔𝗟 𝗣𝗥𝗜𝗖𝗘\n 250rands Per Group via Gpay/paytm/phonepe 1 Month\n\nFor more details, you can chat with the owner\nhttps://wa.me/227634090203 (ZIM BOT OWNER)\n\n𝗗𝗢𝗡𝗔𝗧𝗘 : \n\n 𝗙𝗔𝗠𝗣𝗔𝗬 : https://i.imgur.com/TfI3QYW.jpg\n` }, { quoted: m })
+   ZimBotInc.sendMessage(m.chat, { image: { url: 'https://i.imgur.com/TfI3QYW.jpg' }, caption: `*𝗛𝗜 𝗕𝗥𝗢 ${m.pushName}*\n\n 𝗕𝗢𝗧 𝗥𝗘𝗡𝗧𝗔𝗟 𝗣𝗥𝗜𝗖𝗘\n 250rands Per Group via Gpay/paytm/phonepe 1 Month\n\nFor more details, you can chat with the owner\nhttps://wa.me/227634090203 (YASIR TANVEER OWNER)\n\n𝗗𝗢𝗡𝗔𝗧𝗘 : \n\n 𝗙𝗔𝗠𝗣𝗔𝗬 : https://i.imgur.com/TfI3QYW.jpg\n` }, { quoted: m })
  }
  */
  break
  case 'sc': case 'script': case 'donate': case 'donasi': case 'donate': case 'sewabot': case 'sewa': case 'buypremium': case 'donate': {
 
   teks = `
-  *ZIM-BOT-V4*\n\n*YOUTUBE:* https://youtu.be/KNu-gr2h7bo\n*GITHUB:* https://github.com/zim-bot/zimbot-v4/fork\n\n*DONATE:* https://www.paypal.com/paypalme/zimbotinc`
+  *ZIM-BOT-V4*\n\n*YOUTUBE:* https://youtu.be/KNu-gr2h7bo\n*Website:* https://stationeryinn.pk\n\n*DONATE:* https://www.paypal.com/paypalme/zimbotinc`
   let buttons = [
   {buttonId: `rpgmenu`, buttonText: {displayText: 'RPG'}, type: 1}
   ]
@@ -2225,9 +2225,9 @@ Please @${m.mentionedJid[0].split`@`[0]} to type accept/reject`
   headerType: 4,
   contextInfo:{externalAdReply:{
   title:"DONATE ME",
-  body: "DRIPS OFC", 
+  body: "Apna Bot OFC", 
   showAdAttribution: true,
-  thumbnail: fs.readFileSync("Zimbot/drips.jpg"),
+  thumbnail: fs.readFileSync("Zimbot/Apna Bot.jpg"),
   mediaType:1,
   mediaUrl: 'https://youtu.be/KNu-gr2h7bo',
   sourceUrl: "https://youtu.be/KNu-gr2h7bog"
@@ -2252,9 +2252,9 @@ Please @${m.mentionedJid[0].split`@`[0]} to type accept/reject`
   headerType: 4,
   contextInfo:{externalAdReply:{
   title:"DONATE ME",
-  body: "DRIPS OFC", 
+  body: "Apna Bot OFC", 
   showAdAttribution: true,
-  thumbnail: fs.readFileSync("Zimbot/drips.jpg"),
+  thumbnail: fs.readFileSync("Zimbot/Apna Bot.jpg"),
   mediaType:1,
   mediaUrl: 'https://youtu.be/KNu-gr2h7bo',
   sourceUrl: "https://youtu.be/KNu-gr2h7bog"
@@ -2288,7 +2288,7 @@ Please @${m.mentionedJid[0].split`@`[0]} to type accept/reject`
   reply('*There are still unfinished match*')
   throw false
    }
-   let anu = await fetchJson('https://raw.githubusercontent.com/BochilTeam/database/master/games/family100.json')
+   let anu = await fetchJson('https://raw.Websiteusercontent.com/BochilTeam/database/master/games/family100.json')
    let random = anu[Math.floor(Math.random() * anu.length)]
    let hasil = `*Answer the following questions :*\n${random.soal}\n\nThere is *${random.jawaban.length}* Answer ${random.jawaban.find(v => v.includes(' ')) ? `(some answers have spaces)` : ''}`.trim()
    _family100['family100'+m.chat] = {
@@ -2310,7 +2310,7 @@ Please @${m.mentionedJid[0].split`@`[0]} to type accept/reject`
    if (!text) throw `Example : ${prefix + command} lagu\n\nOption : \n1. music\n2. picture\n3. word\n4. sentence\n5. lyrics\n6.rice cake`
    if (args[0] === "lagu") {
   if (tebaklagu.hasOwnProperty(m.sender.split('@')[0])) throw "*There are still unfinished match *"
-  let anu = await fetchJson('https://fatiharridho.github.io/tebaklagu.json')
+  let anu = await fetchJson('https://fatiharridho.Website.io/tebaklagu.json')
   let result = anu[Math.floor(Math.random() * anu.length)]
   let msg = await ZimBotInc.sendMessage(m.chat, { audio: { url: result.link_song }, mimetype: 'audio/mpeg' }, { quoted: m })
   ZimBotInc.sendText(m.chat, `The song is a song from?\n\nArtist : ${result.artist}\nTime : 60s`, msg).then(() => {
@@ -2319,13 +2319,13 @@ Please @${m.mentionedJid[0].split`@`[0]} to type accept/reject`
   await sleep(60000)
   if (tebaklagu.hasOwnProperty(m.sender.split('@')[0])) {
   console.log("Answer: " + result.jawaban)
-  ZimBotInc.sendButtonText(m.chat, [{ buttonId: 'tebak lagu', buttonText: { displayText: 'TEBAK LAGU' }, type: 1 }], `Time Out\nAnswer:  ${tebaklagu[m.sender.split('@')[0]]}\n\nWant to play? ZIM BOT INC`, ZimBotInc.user.name, m)
+  ZimBotInc.sendButtonText(m.chat, [{ buttonId: 'tebak lagu', buttonText: { displayText: 'TEBAK LAGU' }, type: 1 }], `Time Out\nAnswer:  ${tebaklagu[m.sender.split('@')[0]]}\n\nWant to play? YASIR TANVEER INC`, ZimBotInc.user.name, m)
   delete tebaklagu[m.sender.split('@')[0]]
   
   }
    } else if (args[0] === 'gambar') {
   if (tebakgambar.hasOwnProperty(m.sender.split('@')[0])) throw "*There are still unfinished match*"
-  let anu = await fetchJson('https://raw.githubusercontent.com/BochilTeam/database/master/games/tebakgambar.json')
+  let anu = await fetchJson('https://raw.Websiteusercontent.com/BochilTeam/database/master/games/tebakgambar.json')
   let result = anu[Math.floor(Math.random() * anu.length)]
   ZimBotInc.sendImage(m.chat, result.img, `Please answer the questions above\n\nDescription : ${result.deskripsi}\nWaktu : 60s`, m).then(() => {
   tebakgambar[m.sender.split('@')[0]] = result.jawaban.toLowerCase()
@@ -2333,13 +2333,13 @@ Please @${m.mentionedJid[0].split`@`[0]} to type accept/reject`
   await sleep(60000)
   if (tebakgambar.hasOwnProperty(m.sender.split('@')[0])) {
   console.log("Answer: " + result.jawaban)
-  ZimBotInc.sendButtonText(m.chat, [{ buttonId: 'tebak gambar', buttonText: { displayText: 'Tebak Gambar' }, type: 1 }], `Time has run out\Answer:  ${tebakgambar[m.sender.split('@')[0]]}\n\nWant to play? ZIM BOT INC`, ZimBotInc.user.name, m)
+  ZimBotInc.sendButtonText(m.chat, [{ buttonId: 'tebak gambar', buttonText: { displayText: 'Tebak Gambar' }, type: 1 }], `Time has run out\Answer:  ${tebakgambar[m.sender.split('@')[0]]}\n\nWant to play? YASIR TANVEER INC`, ZimBotInc.user.name, m)
   delete tebakgambar[m.sender.split('@')[0]]
   
   }
    } else if (args[0] === 'kata') {
   if (tebakkata.hasOwnProperty(m.sender.split('@')[0])) throw "*There are still unfinished match*"
-  let anu = await fetchJson('https://raw.githubusercontent.com/BochilTeam/database/master/games/tebakkata.json')
+  let anu = await fetchJson('https://raw.Websiteusercontent.com/BochilTeam/database/master/games/tebakkata.json')
   let result = anu[Math.floor(Math.random() * anu.length)]
   ZimBotInc.sendText(m.chat, `Silahkan Jawab Pertanyaan Berikut\n\n${result.soal}\nTime : 60s`, m).then(() => {
   tebakkata[m.sender.split('@')[0]] = result.jawaban.toLowerCase()
@@ -2347,13 +2347,13 @@ Please @${m.mentionedJid[0].split`@`[0]} to type accept/reject`
   await sleep(60000)
   if (tebakkata.hasOwnProperty(m.sender.split('@')[0])) {
   console.log("Answer: " + result.jawaban)
-  ZimBotInc.sendButtonText(m.chat, [{ buttonId: 'tebak kata', buttonText: { displayText: 'Tebak Kata' }, type: 1 }], `Time has run out\nAnswer:  ${tebakkata[m.sender.split('@')[0]]}\n\nWant to play? ZIM BOT INC`, ZimBotInc.user.name, m)
+  ZimBotInc.sendButtonText(m.chat, [{ buttonId: 'tebak kata', buttonText: { displayText: 'Tebak Kata' }, type: 1 }], `Time has run out\nAnswer:  ${tebakkata[m.sender.split('@')[0]]}\n\nWant to play? YASIR TANVEER INC`, ZimBotInc.user.name, m)
   delete tebakkata[m.sender.split('@')[0]]
   
   }
    } else if (args[0] === 'kalimat') {
   if (tebakkalimat.hasOwnProperty(m.sender.split('@')[0])) throw "*There are still unfinished match*"
-  let anu = await fetchJson('https://raw.githubusercontent.com/BochilTeam/database/master/games/tebakkalimat.json')
+  let anu = await fetchJson('https://raw.Websiteusercontent.com/BochilTeam/database/master/games/tebakkalimat.json')
   let result = anu[Math.floor(Math.random() * anu.length)]
   ZimBotInc.sendText(m.chat, `Silahkan Jawab Pertanyaan Berikut\n\n${result.soal}\nTime : 60s`, m).then(() => {
   tebakkalimat[m.sender.split('@')[0]] = result.jawaban.toLowerCase()
@@ -2367,7 +2367,7 @@ Please @${m.mentionedJid[0].split`@`[0]} to type accept/reject`
   }
    } else if (args[0] === 'lirik') {
   if (tebaklirik.hasOwnProperty(m.sender.split('@')[0])) throw "*There are still unfinished match*"
-  let anu = await fetchJson('https://raw.githubusercontent.com/BochilTeam/database/master/games/tebaklirik.json')
+  let anu = await fetchJson('https://raw.Websiteusercontent.com/BochilTeam/database/master/games/tebaklirik.json')
   let result = anu[Math.floor(Math.random() * anu.length)]
   ZimBotInc.sendText(m.chat, `These are the lyrics of the song? : *${result.soal}*?\nTime : 60s`, m).then(() => {
   tebaklirik[m.sender.split('@')[0]] = result.jawaban.toLowerCase()
@@ -2381,7 +2381,7 @@ Please @${m.mentionedJid[0].split`@`[0]} to type accept/reject`
   }
    } else if (args[0] === 'lontong') {
   if (caklontong.hasOwnProperty(m.sender.split('@')[0])) throw "*There are still unfinished match*"
-  let anu = await fetchJson('https://raw.githubusercontent.com/BochilTeam/database/master/games/caklontong.json')
+  let anu = await fetchJson('https://raw.Websiteusercontent.com/BochilTeam/database/master/games/caklontong.json')
   let result = anu[Math.floor(Math.random() * anu.length)]
   ZimBotInc.sendText(m.chat, `*Answer the following questions :*\n${result.soal}*\nTime : 60s`, m).then(() => {
   caklontong[m.sender.split('@')[0]] = result.jawaban.toLowerCase()
@@ -2818,11 +2818,11 @@ if (!db.settings[botNumber].chatbot) return reply(`*Already off okay*`)
 db.settings[botNumber].chatbot = false
 reply(`*It was nice to chat with you goodbye _chatbot off_*`)
 } else {
- let drips = [
+ let Apna Bot = [
 { buttonId: `${command} on`, buttonText: { displayText: 'ON' }, type: 1 },
 { buttonId: `${command} off`, buttonText: { displayText: 'OFF' }, type: 1 }
   ]
-  await ZimBotInc.sendButtonText(m.chat, drips, `*▊▊ _CHATBOT_ ▊▊*`, ZimBotInc.user.name, m)
+  await ZimBotInc.sendButtonText(m.chat, Apna Bot, `*▊▊ _CHATBOT_ ▊▊*`, ZimBotInc.user.name, m)
 }
   } 
 break 
@@ -2838,11 +2838,11 @@ case 'welcome': {
   db.chats[m.chat].isWelcome = false
   reply(`*welcome off*`)
   } else {
-   let drips = [
+   let Apna Bot = [
   { buttonId: `${command} on`, buttonText: { displayText: 'ON' }, type: 1 },
   { buttonId: `${command} off`, buttonText: { displayText: 'OFF' }, type: 1 }
     ]
-    await ZimBotInc.sendButtonText(m.chat, drips, `*▊▊ _WELCOME_ ▊▊*`, ZimBotInc.user.name, m)
+    await ZimBotInc.sendButtonText(m.chat, Apna Bot, `*▊▊ _WELCOME_ ▊▊*`, ZimBotInc.user.name, m)
   }
     }   
   break 
@@ -2857,11 +2857,11 @@ case 'welcome': {
     db.settings[botNumber].grouponly = false
     reply(`*Grouponly off*`)
     } else {
-     let drips = [
+     let Apna Bot = [
     { buttonId: `${command} on`, buttonText: { displayText: 'ON' }, type: 1 },
     { buttonId: `${command} off`, buttonText: { displayText: 'OFF' }, type: 1 }
       ]
-      await ZimBotInc.sendButtonText(m.chat, drips, `*▊▊ _GROUP ONLY_ ▊▊*`, ZimBotInc.user.name, m)
+      await ZimBotInc.sendButtonText(m.chat, Apna Bot, `*▊▊ _GROUP ONLY_ ▊▊*`, ZimBotInc.user.name, m)
     }
       } 
   break
@@ -2876,17 +2876,17 @@ case 'welcome': {
     db.settings[botNumber].autoblock = false
     reply(`*Autoblock off*`)
     } else {
-     let drips = [
+     let Apna Bot = [
     { buttonId: `${command} on`, buttonText: { displayText: 'ON' }, type: 1 },
     { buttonId: `${command} off`, buttonText: { displayText: 'OFF' }, type: 1 }
       ]
-      await ZimBotInc.sendButtonText(m.chat, drips, `*▊▊ _AUTOBLOCK_ ▊▊*`, ZimBotInc.user.name, m)
+      await ZimBotInc.sendButtonText(m.chat, Apna Bot, `*▊▊ _AUTOBLOCK_ ▊▊*`, ZimBotInc.user.name, m)
     }
       } 
   break
 //-----GROUP---\\
 
-//--CREATED BY DRIPS--\\
+//--CREATED BY Apna Bot--\\
 
 case 'antiwame': {
    if (!m.isGroup) throw mess.group
@@ -2942,11 +2942,11 @@ case 'antilink': {
  db.chats[m.chat].antilink = false
  reply(`*Antilink disabled*`)
  } else {
-let drips = [
+let Apna Bot = [
 { buttonId: 'antilink on', buttonText: { displayText: 'ON' }, type: 1 },
 { buttonId: 'antilink off', buttonText: { displayText: 'OFF' }, type: 1 }
 ]
-await ZimBotInc.sendButtonText(m.chat, drips, `*▊▊▊ANTILINK MODE▊▊▊*`, ZimBotInc.user.name, m)
+await ZimBotInc.sendButtonText(m.chat, Apna Bot, `*▊▊▊ANTILINK MODE▊▊▊*`, ZimBotInc.user.name, m)
 }
 }
 break
@@ -2963,15 +2963,15 @@ if (!db.chats[m.chat].antiytchannel) return reply(`*Already off okay*`)
 db.chats[m.chat].antiytchannel = false
 reply(`*Antilink disabled*`)
 } else {
-let drips = [
+let Apna Bot = [
 { buttonId: `${command} on`, buttonText: { displayText: 'ON' }, type: 1 },
 { buttonId: `${command} off`, buttonText: { displayText: 'OFF' }, type: 1 }
 ]
-await ZimBotInc.sendButtonText(m.chat, drips, `*▊▊▊ANTILINK MODE▊▊▊*`, ZimBotInc.user.name, m)
+await ZimBotInc.sendButtonText(m.chat, Apna Bot, `*▊▊▊ANTILINK MODE▊▊▊*`, ZimBotInc.user.name, m)
 }
 }
 break
- case 'antilinkinstagram': case 'adripsantiig': case 'antiinsta': {
+ case 'antilinkinstagram': case 'aApna Botantiig': case 'antiinsta': {
 if (!m.isGroup) throw mess.group
 if (!isBotAdmins) throw mess.botAdmin
 if (!isAdmins) throw mess.admin
@@ -2984,11 +2984,11 @@ if (!db.chats[m.chat].antiinstagram) return reply(`*Already off okay*`)
 db.chats[m.chat].antiinstagram = false
 reply(`*Antilink disabled*`)
 } else {
- let drips = [
+ let Apna Bot = [
 { buttonId: `${command} on`, buttonText: { displayText: 'ON' }, type: 1 },
 { buttonId: `${command} off`, buttonText: { displayText: 'OFF' }, type: 1 }
  ]
- await ZimBotInc.sendButtonText(m.chat, drips, `*▊▊▊ANTILINK MODE▊▊▊*`, ZimBotInc.user.name, m)
+ await ZimBotInc.sendButtonText(m.chat, Apna Bot, `*▊▊▊ANTILINK MODE▊▊▊*`, ZimBotInc.user.name, m)
 }
 }
 break
@@ -3005,15 +3005,15 @@ case 'antilinkfacebook': case 'antifb': {
  db.chats[m.chat].antifb = false
  reply(`*Antilink disabled*`)
  } else {
-  let drips = [
+  let Apna Bot = [
     { buttonId: `${command} on`, buttonText: { displayText: 'ON' }, type: 1 },
     { buttonId: `${command} off`, buttonText: { displayText: 'OFF' }, type: 1 }
 ]
-await ZimBotInc.sendButtonText(m.chat, drips, `*▊▊▊ANTILINK MODE▊▊▊*`, ZimBotInc.user.name, m)
+await ZimBotInc.sendButtonText(m.chat, Apna Bot, `*▊▊▊ANTILINK MODE▊▊▊*`, ZimBotInc.user.name, m)
  }
   }
 break
-case 'antitelegram': case 'adripsantitele': {    
+case 'antitelegram': case 'aApna Botantitele': {    
  if (!m.isGroup) throw mess.group
  if (!isBotAdmins) throw mess.botAdmin
  if (!isAdmins) throw mess.admin
@@ -3026,11 +3026,11 @@ case 'antitelegram': case 'adripsantitele': {
  db.chats[m.chat].antitelegram = false
  reply(`*Antilink disabled*`)
  } else {
-let drips = [
+let Apna Bot = [
   { buttonId: `${command} on`, buttonText: { displayText: 'ON' }, type: 1 },
   { buttonId: `${command} off`, buttonText: { displayText: 'OFF' }, type: 1 }
    ]
-   await ZimBotInc.sendButtonText(m.chat, drips, `*▊▊▊ANTILINK MODE▊▊▊*`, ZimBotInc.user.name, m)
+   await ZimBotInc.sendButtonText(m.chat, Apna Bot, `*▊▊▊ANTILINK MODE▊▊▊*`, ZimBotInc.user.name, m)
  }
 }
 break
@@ -3047,11 +3047,11 @@ case 'antivn': case 'antiaudio': case 'antivoicenote': case 'antivoice': {
   db.chats[m.chat].antivn = false
   reply(`*Antivn disabled*`)
   } else {
-   let drips = [
+   let Apna Bot = [
      { buttonId: `${command} on`, buttonText: { displayText: 'ON' }, type: 1 },
      { buttonId: `${command} off`, buttonText: { displayText: 'OFF' }, type: 1 }
  ]
- await ZimBotInc.sendButtonText(m.chat, drips, `*▊▊▊ANT VN MODE▊▊▊*`, ZimBotInc.user.name, m)
+ await ZimBotInc.sendButtonText(m.chat, Apna Bot, `*▊▊▊ANT VN MODE▊▊▊*`, ZimBotInc.user.name, m)
   }
    }
  break
@@ -3068,11 +3068,11 @@ if (!db.chats[m.chat].antisticker) return reply(`*Already off okay*`)
 db.chats[m.chat].antisticker = false
 reply(`*Antisticker disabled*`)
 } else {
-let drips = [
+let Apna Bot = [
 { buttonId: `${command} on`, buttonText: { displayText: 'ON' }, type: 1 },
 { buttonId: `${command} off`, buttonText: { displayText: 'OFF' }, type: 1 }
 ]
-await ZimBotInc.sendButtonText(m.chat, drips, `*▊▊▊ANTISTICKER MODE▊▊▊*`, ZimBotInc.user.name, m)
+await ZimBotInc.sendButtonText(m.chat, Apna Bot, `*▊▊▊ANTISTICKER MODE▊▊▊*`, ZimBotInc.user.name, m)
 }
 }
 break
@@ -3089,11 +3089,11 @@ if (!db.chats[m.chat].antiphoto) return reply(`*Already off okay*`)
 db.chats[m.chat].antiphoto = false
 reply(`*Antiphoto disabled*`)
 } else {
-let drips = [
+let Apna Bot = [
 { buttonId: `${command} on`, buttonText: { displayText: 'ON' }, type: 1 },
 { buttonId: `${command} off`, buttonText: { displayText: 'OFF' }, type: 1 }
 ]
-await ZimBotInc.sendButtonText(m.chat, drips, `*▊▊▊ANTIPHOTO MODE▊▊▊*`, ZimBotInc.user.name, m)
+await ZimBotInc.sendButtonText(m.chat, Apna Bot, `*▊▊▊ANTIPHOTO MODE▊▊▊*`, ZimBotInc.user.name, m)
 }
 }
 break
@@ -3110,11 +3110,11 @@ case 'antivideo': case 'antivid': {
   db.chats[m.chat].antivideo = false
   reply(`*Antivideo disabled*`)
   } else {
-   let drips = [
+   let Apna Bot = [
      { buttonId: `${command} on`, buttonText: { displayText: 'ON' }, type: 1 },
      { buttonId: `${command} off`, buttonText: { displayText: 'OFF' }, type: 1 }
  ]
- await ZimBotInc.sendButtonText(m.chat, drips, `*▊▊▊ANTIVIDEO MODE▊▊▊*`, ZimBotInc.user.name, m)
+ await ZimBotInc.sendButtonText(m.chat, Apna Bot, `*▊▊▊ANTIVIDEO MODE▊▊▊*`, ZimBotInc.user.name, m)
   }
    }
  break
@@ -3130,11 +3130,11 @@ reply(`${command} *Successfully Activated*`)
 global.db.chats[m.chat].antionce = false
 reply(`${command} *Successfully Deactivated*`)
    } else {
-let drips = [
+let Apna Bot = [
 { buttonId: `${command} on`, buttonText: { displayText: 'ON' }, type: 1 },
 { buttonId: `${command} off`, buttonText: { displayText: 'OFF' }, type: 1 }
 ]
-await ZimBotInc.sendButtonText(m.chat, drips, `*▊▊▊ANTILINK VIEW▊▊▊*`, `${global.botname}`, m)
+await ZimBotInc.sendButtonText(m.chat, Apna Bot, `*▊▊▊ANTILINK VIEW▊▊▊*`, `${global.botname}`, m)
 }
 break
 case 'antitiktok': case 'aantitik': {
@@ -3150,11 +3150,11 @@ if (!db.chats[m.chat].antitiktok) return reply(`*Already off okay*`)
 db.chats[m.chat].antitiktok = false
 reply(`*Antilink disabled*`)
 } else {
-let drips = [
+let Apna Bot = [
 { buttonId: `${command} on`, buttonText: { displayText: 'ON' }, type: 1 },
 { buttonId: `${command} off`, buttonText: { displayText: 'OFF' }, type: 1 }
 ]
-await ZimBotInc.sendButtonText(m.chat, drips, `*▊▊▊ANTILINK MODE▊▊▊*`, ZimBotInc.user.name, m)
+await ZimBotInc.sendButtonText(m.chat, Apna Bot, `*▊▊▊ANTILINK MODE▊▊▊*`, ZimBotInc.user.name, m)
 }
 }
 break
@@ -3171,15 +3171,15 @@ if (args[0] === "on") {
  db.chats[m.chat].antilinkall = false
  reply(`*Antilink disabled*`)
  } else {
-  let drips = [
+  let Apna Bot = [
     { buttonId: `${command} on`, buttonText: { displayText: 'ON' }, type: 1 },
     { buttonId: `${command} off`, buttonText: { displayText: 'OFF' }, type: 1 }
 ]
-await ZimBotInc.sendButtonText(m.chat, drips, `*▊▊▊ANTILINK MODE▊▊▊*`, ZimBotInc.user.name, m)
+await ZimBotInc.sendButtonText(m.chat, Apna Bot, `*▊▊▊ANTILINK MODE▊▊▊*`, ZimBotInc.user.name, m)
  }
  }
 break
-case 'adripsantitwt': case 'antitwitter': case 'antilinktwit': {
+case 'aApna Botantitwt': case 'antitwitter': case 'antilinktwit': {
 if (!m.isGroup) throw mess.group
 if (!isBotAdmins) throw mess.botAdmin
 if (!isAdmins) throw mess.admin
@@ -3192,11 +3192,11 @@ if (!db.chats[m.chat].antitwitter) return reply(`*Already off okay*`)
 db.chats[m.chat].antitwitter = false
 reply(`*Antilink disabled*`)
 } else {
- let dripsi = [
+ let Apna Boti = [
 { buttonId: `${command} on`, buttonText: { displayText: 'ON' }, type: 1 },
 { buttonId: `${command} off`, buttonText: { displayText: 'OFF' }, type: 1 }
  ]
- await ZimBotInc.sendButtonText(m.chat, dripsi, `*▊▊▊ANTILINK MODE▊▊▊*`, ZimBotInc.user.name, m)
+ await ZimBotInc.sendButtonText(m.chat, Apna Boti, `*▊▊▊ANTILINK MODE▊▊▊*`, ZimBotInc.user.name, m)
 }
  }
 break
@@ -3206,7 +3206,7 @@ if (!isBotAdmins) return reply(mess.botAdmin)
 if (!isAdmins && !isCreator) return reply(mess.admin)
 if (args[0] === "on") {
 if (antiToxic) return reply('*Already activated*')
-dripsanti.push(from)
+Apna Botanti.push(from)
 reply('*Success turning on anti rude in this group*')
 var group = await ZimBotInc.groupMetadata(from)
 var members = group['participants']
@@ -3217,8 +3217,8 @@ mems.push(adm.id.replace('c.us', 's.whatsapp.net'))
 ZimBotInc.sendMessage(from, {text: `*▊▊▊ANTILINK RUDE▊▊▊*\n\n*no hate speech anymore, watch space im going to kick dumps*`, contextInfo: { mentionedJid : mems }}, {quoted:m})
 } else if (args[0] === "off") {
 if (!antiToxic) return reply('*Already deactivated*')
-let off = dripsanti.indexOf(from)
-dripsanti.splice(off, 1)
+let off = Apna Botanti.indexOf(from)
+Apna Botanti.splice(off, 1)
 reply('*Success in turning off antirude in this group happy now*')
 } else {
  let buttons = [
@@ -3242,7 +3242,7 @@ break
  if (!isAdmins && !isCreator) return reply(mess.admin)
  if (args[0] === "on") {
  if (isAntinsfw) return reply('*Already activated*')
- dripsno.push(from)
+ Apna Botno.push(from)
  reply('*hahaha turning on horny mood in this group happy now*')
  var group = await ZimBotInc.groupMetadata(from)
  var members = group['participants']
@@ -3253,8 +3253,8 @@ break
  ZimBotInc.sendMessage(from, {text: `*horny mood activated everyone be ready for masturbation*`, contextInfo: { mentionedJid : mems }}, {quoted:m})
  } else if (args[0] === "off") {
  if (!isAntinsfw) return reply('*Already deactivated*')
- let off = dripsno.indexOf(from)
- dripsno.splice(off, 1)
+ let off = Apna Botno.indexOf(from)
+ Apna Botno.splice(off, 1)
  reply('*Success turning off horny mood in this group*')
  } else {
 let button = [
@@ -3296,21 +3296,21 @@ break
  break
  case 'git': case 'gitclone':
 reply(mess.wait)
- let regex1 = /(?:https|git)(?::\/\/|@)github\.com[\/:]([^\/:]+)\/(.+)/i
- if(!args[0]) throw 'link github  EXAMPLE: https://github.com/zim-bot/zim-bot-md'
+ let regex1 = /(?:https|git)(?::\/\/|@)Website\.com[\/:]([^\/:]+)\/(.+)/i
+ if(!args[0]) throw 'link Website  EXAMPLE: https://Website.com/zim-bot/zim-bot-md'
 if (!regex1.test(args[0])) throw 'link!'
    let [, user, repo] = args[0].match(regex1) || []
     repo = repo.replace(/.git$/, '')
-    let url = `https://api.github.com/repos/${user}/${repo}/zipball`
+    let url = `https://api.Website.com/repos/${user}/${repo}/zipball`
     let filename = (await fetch(url, {method: 'HEAD'})).headers.get('content-disposition').match(/attachment; filename=(.*)/)[1]
     // 'attachment; filenameq=ZidniGanz.zip'
     reply(`*Please wait, sending repository..*`)
     ZimBotInc.sendMessage(m.chat, { document: { url: url }, fileName: filename+'.zip', mimetype: 'application/zip' , quoted: m,contextInfo: { externalAdReply:{
-      title:"ZIM BOT V4",
-      body:"SUB DRIPS OFC",
+      title:"YASIR TANVEER V4",
+      body:"SUB Apna Bot OFC",
       showAdAttribution: true,
       mediaType:2,
-      thumbnail: fs.readFileSync('./drips.jpg'),
+      thumbnail: fs.readFileSync('./Apna Bot.jpg'),
       mediaUrl:`https://youtu.be/KNu-gr2h7bo`, 
       sourceUrl: `https://youtu.be/KNu-gr2h7bo`,
       }}
@@ -3326,19 +3326,19 @@ if (!regex1.test(args[0])) throw 'link!'
 				const ttrth = trut[Math.floor(Math.random() * trut.length)]
 				truteh = await getBuffer(`https://i.ibb.co/305yt26/bf84f20635dedd5dde31e7e5b6983ae9.jpg`)
 			ZimBotInc.sendMessage(m.chat, {image: truteh, caption: '*Truth*\n\n'+ ttrth, quoted: m,contextInfo: { externalAdReply:{
-        title:"ZIM BOT V4",
-        body:"SUB DRIPS OFC",
+        title:"YASIR TANVEER V4",
+        body:"SUB Apna Bot OFC",
         showAdAttribution: true,
         mediaType:2,
-        thumbnail: fs.readFileSync(`./drips.jpg`) ,
+        thumbnail: fs.readFileSync(`./Apna Bot.jpg`) ,
         mediaUrl:`https://youtu.be/KNu-gr2h7bo`, 
         sourceUrl: `https://youtu.be/KNu-gr2h7bo` }}}, {quoted: m})
 break
 case 'ghsearch': 
-       case 'githubsearch': 
-       case 'searchgithub':
+       case 'Websitesearch': 
+       case 'searchWebsite':
              if (!q) return reply('*What are you looking for?*')
-             let pomi = await fetch('https://api.github.com/search/repositories?q='+q)
+             let pomi = await fetch('https://api.Website.com/search/repositories?q='+q)
             let dhumi = await pomi.json()
              if (pomi.status !== 200) throw dhumi
              str = dhumi.items.map((repo, index) => {
@@ -3374,12 +3374,12 @@ break
   let btn = [{
  urlButton: {
   displayText: 'SUBSCRIBE',
-  url: 'https://youtube.ccom/c/DRIPSOFC'
+  url: 'https://stationeryinn.pk BotOFC'
  }
   }, {
  callButton: {
   displayText: 'OWNER',
-  phoneNumber: '+27 634-090-0203'
+  phoneNumber: '+923154376814'
  }
   }, {
  quickReplyButton: {
@@ -3397,7 +3397,7 @@ break
   id: 'sc'
  }
   }]
- fatihgans = fs.readFileSync('./Zimbot/drips.jpg')
+ fatihgans = fs.readFileSync('./Zimbot/Apna Bot.jpg')
  let txt = `「 ZimBot Broadcast 」\n\n${text}`
  ZimBotInc.send5ButImg(i, txt, ZimBotInc.user.name, fatihgans, btn)
   }
@@ -3413,8 +3413,8 @@ for (let yoi of anu) {
     await sleep(1500)
     let btn = [{
  urlButton: {
-  displayText: 'GITHUB',
-  url: 'https://github.com/zim-bot/zimbot-v2'
+  displayText: 'Website',
+  url: 'https://Website.com/zim-bot/zimbot-v2'
  }
   }, {
  quickReplyButton: {
@@ -3422,8 +3422,8 @@ for (let yoi of anu) {
   id: 'owner'
  }
   }]
- fatihgans = fs.readFileSync('./Zimbot/drips.jpg')
- let txt = `「 ZIM BOT BROADCAST 」\n\n${text}`
+ fatihgans = fs.readFileSync('./Zimbot/Apna Bot.jpg')
+ let txt = `「 YASIR TANVEER BROADCAST 」\n\n${text}`
  ZimBotInc.send5ButImg(yoi, txt, `Broadcast By ${global.pengguna}`, fatihgans, btn)
 }
 reply('*Broadcast Success*')
@@ -3760,7 +3760,7 @@ if (data.medias[0].formattedSize.split('MB')[0] >= 100) return reply('*File Over
 cap = `
 *▊▊▊YOUTUBE SHORTS▊▊▊*
 
-*⬤▶━━━━━━━━━2:30*\n\n\n\n*⬤TITLE:* ${data.title}\n*⬤QUALITY:* ${data.medias[0].quality}\n*⬤SIZE:* ${data.medias[0].formattedSize}\n*⬤DURATION* ${data.duration}\n*⬤ID:* ${data.medias[0].cached}\n*⬤LINK:* ${data.url}\n\n*ZIM BOT INC*`
+*⬤▶━━━━━━━━━2:30*\n\n\n\n*⬤TITLE:* ${data.title}\n*⬤QUALITY:* ${data.medias[0].quality}\n*⬤SIZE:* ${data.medias[0].formattedSize}\n*⬤DURATION* ${data.duration}\n*⬤ID:* ${data.medias[0].cached}\n*⬤LINK:* ${data.url}\n\n*YASIR TANVEER INC*`
 buf = await getBuffer(data.thumbnail)
 ZimBotInc.sendMessage(m.chat, { image: { url: data.thumbnail }, jpegThumbnail:buf, caption: `${cap}` }, { quoted: m })
 ZimBotInc.sendMessage(m.chat, { video: { url: data.medias[0].url }, jpegThumbnail:buf, caption: `*⬤TITLE:* ${data.title}\n*⬤QUALITY:* ${data.medias[0].quality}\n*⬤SIZE:* ${data.medias[0].formattedSize}` }, { quoted: m })  
@@ -3789,8 +3789,8 @@ replay(mess.wait)
  buttons: buttons,
  headerType: 4,
  contextInfo:{externalAdReply:{
- title:`ZIM BOT V4`,
- body:`DRIPS OFC`,
+ title:`YASIR TANVEER V4`,
+ body:`Apna Bot OFC`,
  showAdAttribution: true,
  thumbnail: global.thumb,
  mediaType:2,
@@ -3808,7 +3808,7 @@ replay(mess.wait)
  break
     case 'couplepp': case 'ppcouple': {
    replay(mess.wait)
-   let anu = await fetchJson('https://raw.githubusercontent.com/iamriz7/kopel_/main/kopel.json')
+   let anu = await fetchJson('https://raw.Websiteusercontent.com/iamriz7/kopel_/main/kopel.json')
    let random = anu[Math.floor(Math.random() * anu.length)]
    ZimBotInc.sendMessage(m.chat, { image: { url: random.male }, caption: `Couple Male` }, { quoted: m })
    ZimBotInc.sendMessage(m.chat, { image: { url: random.female }, caption: `*Couple Female*` }, { quoted: m })
@@ -3848,7 +3848,7 @@ ZimBotInc.sendMessage(from, {image:stallone},{quoted:m})
 break
 //---END HERE-------\\
 
-//CREATED BY DRIPS
+//CREATED BY Apna Bot
 
 //------ANIME FESTURES------\\
 case 'cry': 
@@ -4057,10 +4057,10 @@ case 'update':
           var img = ""
        var buttons = [{
         urlButton: {
-            displayText: 'DRIPS',
+            displayText: 'Apna Bot',
             url: 'tes'
         }
-    },// By drips 
+    },// By Apna Bot 
     {
         quickReplyButton: {
             displayText: 'lol',
@@ -4091,7 +4091,7 @@ case 'updatenow':
       git.fetch('upstream', 'main');
       git.reset('hard', ['FETCH_HEAD']);//lols
 
-    git_url =  git_url.replace("https://", "https://api:" + Config.HEROKU_API_KEY + "@")//drips
+    git_url =  git_url.replace("https://", "https://api:" + Config.HEROKU_API_KEY + "@")//Apna Bot
       try {
         await git.addRemote('heroku', git_url);
     } catch {console.log('Deploy error catched. Retrying...')}
@@ -4151,8 +4151,8 @@ await ZimBotInc.sendMessage(m.chat, tunhastallone, {quoted: m})
 case 'play2':  {   
 if  (!text) reply('example: seh calaz takambo tamba')
 let yts = require("yt-search")
-drips2 = await yts(text)
-aramat = drips2.all 
+Apna Bot2 = await yts(text)
+aramat = Apna Bot2.all 
 var mulaikah = aramat[0].url
 try {
 xa.Youtube(mulaikah).then(async (data) => {
@@ -4163,10 +4163,10 @@ const captions = `
 0.02━◉━━━━━━━━━━━━3.26
       🔂   ⏪   ⏸️     ⏩  🎵
 
-*◉Tɪᴛʟᴇ :* ${drips2.videos[0].title}
+*◉Tɪᴛʟᴇ :* ${Apna Bot2.videos[0].title}
 *◉Sɪᴢᴇ :* ${data.medias[7].formattedSize}
-*◉Dᴇꜱᴄʀɪᴘᴛɪᴏɴ :* ${drips2.videos[0].description}`
-message = await prepareWAMessageMedia({ image : { url: drips2.videos[0].thumbnail } }, { upload:   ZimBotInc.waUploadToServer })
+*◉Dᴇꜱᴄʀɪᴘᴛɪᴏɴ :* ${Apna Bot2.videos[0].description}`
+message = await prepareWAMessageMedia({ image : { url: Apna Bot2.videos[0].thumbnail } }, { upload:   ZimBotInc.waUploadToServer })
 const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 templateMessage: {
 hydratedTemplate: {
@@ -4176,27 +4176,27 @@ hydratedFooterText: `${botname}`,
 hydratedButtons: [{
 urlButton: {
 displayText: 'SOURCE VIDEO',
-url: `${drips2.videos[0].url}`
+url: `${Apna Bot2.videos[0].url}`
 }
 }, {
 urlButton: {
-displayText: `GITHUB`, 
-url: `https://github.com/zim-bot/zimbot-v4/fork`
+displayText: `Website`, 
+url: `https://stationeryinn.pk`
 }
 }, {
 quickReplyButton: {
 displayText: `VIDEO`,
-id: `${prefix}ytmp4 ${drips2.videos[0].url}`
+id: `${prefix}ytmp4 ${Apna Bot2.videos[0].url}`
 }
 }, {
 quickReplyButton: {
 displayText: `SONG`,
-id: `${prefix}ytmp3 ${drips2.videos[0].url}`
+id: `${prefix}ytmp3 ${Apna Bot2.videos[0].url}`
 }
 }, {
 quickReplyButton: {
 displayText: `YTSEARCH`,
-id: `${prefix}ytsearch ${drips2.videos[0].title}`
+id: `${prefix}ytsearch ${Apna Bot2.videos[0].title}`
 }
 }]
 }
@@ -4242,8 +4242,8 @@ url: `${anu.url}`
 }
 }, {
 urlButton: {
-displayText: `GITHUB`, 
-url: `https://github.com/zim-bot/zimbot-v4/fork`
+displayText: `Website`, 
+url: `https://stationeryinn.pk`
 }
 }, {
 quickReplyButton: {
@@ -4281,15 +4281,15 @@ let caption = `
     ⟮ _*◉ʏᴏᴜᴛᴜʙᴇ ᴅᴏᴡɴʟᴏᴀᴅ◉*_ ⟯ 
    
 0.02━◉━━━━━━━━━━━━3.26
-      🔂   ⏪   ⏸️     ⏩  🎵\n\n*◉TITLE :* ${media.title}\n*◉FILESIZE :* ${media.filesizeF}\n*◉URL :* ${isUrl(text)}\n*◉EXT :* MP3\n*◉RESOLUTION :* ${args[1] || '128kbps'}\n\n*ZIM BOT INC*`
+      🔂   ⏪   ⏸️     ⏩  🎵\n\n*◉TITLE :* ${media.title}\n*◉FILESIZE :* ${media.filesizeF}\n*◉URL :* ${isUrl(text)}\n*◉EXT :* MP3\n*◉RESOLUTION :* ${args[1] || '128kbps'}\n\n*YASIR TANVEER INC*`
 buf = await getBuffer(media.thumb)
 ZimBotInc.sendMessage(m.chat, { image: { url: media.thumb }, jpegThumbnail:buf, caption: `${caption}` }, { quoted: m }).catch((err) => m.reply('*Sorry, the link you provided is not valid*'))   
 ZimBotInc.sendMessage(m.chat, {document:{url:media.dl_link}, mimetype:"audio/mpeg", fileName: `${media.title}.mp3`,  quoted: m, contextInfo: { externalAdReply:{
-title:"ZIM BOT V4",
-body:"SUB DRIPS OFC",
+title:"YASIR TANVEER V4",
+body:"SUB Apna Bot OFC",
 showAdAttribution: true,
 mediaType:2,
-thumbnail: fs.readFileSync(`./drips.jpg`) ,
+thumbnail: fs.readFileSync(`./Apna Bot.jpg`) ,
 mediaUrl:`https://youtu.be/KNu-gr2h7bo`, 
 sourceUrl: `https://youtu.be/KNu-gr2h7bo` }}}, {quoted: m})
 }
@@ -4306,15 +4306,15 @@ let caption = `
     ⟮ _*◉ʏᴏᴜᴛᴜʙᴇ ᴅᴏᴡɴʟᴏᴀᴅ◉*_ ⟯ 
    
 0.02━◉━━━━━━━━━━━━3.26
-      🔂   ⏪   ⏸️     ⏩  🎵*\n\n*◉TITLE :* ${media.title}\n*◉FILESIZE :* ${media.filesizeF}\n*◉URL :* ${isUrl(text)}\n*◉EXT :* MP3\n*◉RESOLUTION :* ${args[1] || '128kbps'}\n\n*ZIM BOT INC*`
+      🔂   ⏪   ⏸️     ⏩  🎵*\n\n*◉TITLE :* ${media.title}\n*◉FILESIZE :* ${media.filesizeF}\n*◉URL :* ${isUrl(text)}\n*◉EXT :* MP3\n*◉RESOLUTION :* ${args[1] || '128kbps'}\n\n*YASIR TANVEER INC*`
 buf = await getBuffer(media.thumb)
 ZimBotInc.sendMessage(m.chat, { image: { url: media.thumb }, jpegThumbnail:buf, caption: `${caption}` }, { quoted: m }).catch((err) => m.reply('*Sorry, the link you provided is not valid*'))   
 ZimBotInc.sendMessage(m.chat, {audio:{url:media.dl_link}, mimetype:"audio/mpeg", fileName: `${media.title}.mp3`,  quoted: m, contextInfo: { externalAdReply:{
-title:"ZIM BOT V4",
-body:"DRIPS",
+title:"YASIR TANVEER V4",
+body:"Apna Bot",
 showAdAttribution: true,
 mediaType:2,
-thumbnail: fs.readFileSync(`./drips.jpg`) ,
+thumbnail: fs.readFileSync(`./Apna Bot.jpg`) ,
 mediaUrl:`https://youtu.be/KNu-gr2h7bo`, 
 sourceUrl: `https://youtu.be/KNu-gr2h7bo` }}}, {quoted: m})
 }
@@ -4331,15 +4331,15 @@ var capti = `
     ⟮ _*◉ʏᴏᴜᴛᴜʙᴇ ᴅᴏᴡɴʟᴏᴀᴅ◉*_ ⟯ 
    
 0.02━◉━━━━━━━━━━━━3.26
-      🔂   ⏪   ⏸️     ⏩  🎵\n\n*◉Title* : ${media.title}\n*◉FILESIZE* : ${media.filesizeF}\n*◉URL* : ${isUrl(text)}\n*◉EXT* : MP3\n*◉RESOLUTION* : ${args[1] || '360p'}\n\n*ZIM BOT INC*`
+      🔂   ⏪   ⏸️     ⏩  🎵\n\n*◉Title* : ${media.title}\n*◉FILESIZE* : ${media.filesizeF}\n*◉URL* : ${isUrl(text)}\n*◉EXT* : MP3\n*◉RESOLUTION* : ${args[1] || '360p'}\n\n*YASIR TANVEER INC*`
 var buf = await getBuffer(media.thumb)
 ZimBotInc.sendMessage(m.chat, { image: { url: media.thumb }, jpegThumbnail:buf, caption: `${capti}` }, { quoted: m })
 ZimBotInc.sendMessage(m.chat, { video: { url: media.dl_link }, jpegThumbnail:buf, mimetype: 'video/mp4', fileName: `${media.title}.mp4`, caption: `*Downloading From ${text}*` ,  quoted: m,contextInfo: { externalAdReply:{
-title:"ZIM BOT V4",
-body:"DRIPS",
+title:"YASIR TANVEER V4",
+body:"Apna Bot",
 showAdAttribution: true,
 mediaType:2,
-thumbnail: fs.readFileSync(`./drips.jpg`) ,
+thumbnail: fs.readFileSync(`./Apna Bot.jpg`) ,
 mediaUrl:`https://youtu.be/KNu-gr2h7bo`, 
 sourceUrl: `https://youtu.be/KNu-gr2h7bo` }}}, {quoted: m})
 }
@@ -4354,7 +4354,7 @@ cap = `
     ⟮ _*◉Yᴏᴜᴛᴜʙᴇ Sʜᴏʀᴛꜱ◉*_ ⟯ 
    
 0.02━◉━━━━━━━━━━━━3.26
-      🔂   ⏪   ⏸️     ⏩  🎵\n\n\n\n*◉TITLE:* ${data.title}\n*◉QUALITY:* ${data.medias[0].quality}\n*◉SIZE:* ${data.medias[0].formattedSize}\n*◉DURATION* ${data.duration}\n*◉ID:* ${data.medias[0].cached}\n*◉LINK:* ${data.url}\n\n*ZIM BOT INC*`
+      🔂   ⏪   ⏸️     ⏩  🎵\n\n\n\n*◉TITLE:* ${data.title}\n*◉QUALITY:* ${data.medias[0].quality}\n*◉SIZE:* ${data.medias[0].formattedSize}\n*◉DURATION* ${data.duration}\n*◉ID:* ${data.medias[0].cached}\n*◉LINK:* ${data.url}\n\n*YASIR TANVEER INC*`
 buf = await getBuffer(data.thumbnail)
 ZimBotInc.sendMessage(m.chat, { image: { url: data.thumbnail }, jpegThumbnail:buf, caption: `${cap}` }, { quoted: m })
 ZimBotInc.sendMessage(m.chat, { video: { url: data.medias[0].url }, jpegThumbnail:buf, caption: `*◉TITLE:* ${data.title}\n*◉QUALITY:* ${data.medias[0].quality}\n*◉SIZE:* ${data.medias[0].formattedSize}` }, { quoted: m })  
@@ -4408,11 +4408,11 @@ const result4 = `
 *${botname}*`
 reply(`${result4}`)
 ZimBotInc.sendMessage(m.chat, { document : { url : baby1[0].link}, fileName : baby1[0].nama, mimetype: baby1[0].mime ,  quoted : mudratunha, contextInfo: { externalAdReply:{
-  title:"ZIM BOT V4",
-  body:"SUBSCRIBE DRIPS OFC",
+  title:"YASIR TANVEER V4",
+  body:"SUBSCRIBE Apna Bot OFC",
   showAdAttribution: true,
   mediaType:2,
-  thumbnail: fs.readFileSync(`./drips.jpg`) ,
+  thumbnail: fs.readFileSync(`./Apna Bot.jpg`) ,
   mediaUrl:`https://youtu.be/KNu-gr2h7bo`, 
 sourceUrl: `https://youtu.be/KNu-gr2h7bo` }}}, {quoted: m})
 }
@@ -4560,22 +4560,22 @@ case 'fbdl': case 'fb': case 'facebook': case 'fbvideo': {
 
          txt += `*◉DESCRIPTION :* ${data.description}\n`
 
-         txt += `*◉ID :* ZIM BOT INC\n`
+         txt += `*◉ID :* YASIR TANVEER INC\n`
 
          txt += `*◉URL :* ${text}\n\n`
 
-         txt += `*ZIM BOT INC*`                
+         txt += `*YASIR TANVEER INC*`                
 
      buf = await getBuffer(data.thumbnail)    
 
      ZimBotInc.sendMessage(m.chat, { image: { url: data.thumbnail }, jpegThumbnail:buf, caption: `${txt}` }, {quoted: mudratunha})
      for (let i of data.result) {  
     ZimBotInc.sendMessage(m.chat, { video: { url: i.url }, jpegThumbnail:buf, mimetype: 'video/mp4', caption: `*◉ Quality :* ${i.quality}` ,  quoted: m,contextInfo: { externalAdReply:{
-      title:"ZIM BOT V4",
-      body:"SUBSCRIBE DRIPS OFC",
+      title:"YASIR TANVEER V4",
+      body:"SUBSCRIBE Apna Bot OFC",
       showAdAttribution: true,
       mediaType:2,
-      thumbnail: fs.readFileSync(`./drips.jpg`) ,
+      thumbnail: fs.readFileSync(`./Apna Bot.jpg`) ,
       mediaUrl:`https://youtu.be/KNu-gr2h7bo`, 
       sourceUrl: `https://youtu.be/KNu-gr2h7bo` }}}, {quoted: m})
      
@@ -4638,7 +4638,7 @@ const sendm =  ZimBotInc.sendMessage(
 
    text: `${data.meta.title} *Here is the list of videos, click the button below to choose, here is the list of videos, click the button below to choose*`,
 
-   footer: `©ZIM BOT INC 2022`,
+   footer: `©YASIR TANVEER INC 2022`,
 
    title: "**▊▊▊SAVEFROM DL▊▊▊**",
 
@@ -4739,12 +4739,12 @@ hydratedFooterText: `${botname}`,
 hydratedButtons: [{
 urlButton: {
 displayText: 'SUBSCRIBE',
-url: 'https://www.youtube.com/c/DRIPSOFC'
+url: 'https://stationeryinn.pk'
 }
 }, {
 urlButton: {
-displayText: 'GITHUB',
-url: 'https://github.com/zim-bot/zimbot-v4/fork'
+displayText: 'Website',
+url: 'https://stationeryinn.pk'
 }
 }, {
 quickReplyButton: {
@@ -4781,7 +4781,7 @@ case 'tiktok': case 'tiktoknowm': case 'tiktokwm': case 'tt': case 'ttnowm': cas
       var hadir = randomNomor(300)
        var memek = randomNomor(1000)                      
      let caption = `
-     *▊▊▊TIKTOK DL▊▊▊*\n\n*AUTHOR* : DRIPS\n*NICKNAME* : ${video.author.nickname}\n*CAPTION* : ${video.description}\n*QUALITY* : nowatermark\n*COMMENTS* : ${memek}\n*CREATE* ${hadir} Ago\n*LIKES* : ${hadi}\n*DISLIKE* : ${hadie}\n*SOURCE* : ${text}\n\n\n*ZIM BOT INC*`
+     *▊▊▊TIKTOK DL▊▊▊*\n\n*AUTHOR* : Apna Bot\n*NICKNAME* : ${video.author.nickname}\n*CAPTION* : ${video.description}\n*QUALITY* : nowatermark\n*COMMENTS* : ${memek}\n*CREATE* ${hadir} Ago\n*LIKES* : ${hadi}\n*DISLIKE* : ${hadie}\n*SOURCE* : ${text}\n\n\n*YASIR TANVEER INC*`
      buf = await getBuffer(video.author.avatar)                
      ZimBotInc.sendMessage(m.chat, { image: { url: video.author.avatar }, jpegThumbnail:buf, caption: `${caption}` }, { quoted: m })
      ZimBotInc.sendMessage(m.chat, { video: { url: video.video.no_watermark }, jpegThumbnail:buf, mimetype: 'video/mp4', caption: `*Downloading From ${text}*` }, { quoted: m })               
@@ -4801,7 +4801,7 @@ var hadi = randomNomor(100)
 var hadie = randomNomor(200)     
 var hadir = randomNomor(300)
 var memek = randomNomor(1000)                      
-let caption = `*▊▊▊TIKTOK DL▊▊▊*\n\n*AUTHOR* : DRIPS\n*NICKNAME* : ${video.author.nickname}\n*CAPTION* : ${video.description}\n*COMMENTS* : ${memek}\n*CREATE* ${hadir} Ago\n*LIKES* : ${hadi}\n*DISLIKES* : ${hadie}\n*SOURCE* : ${text}\n\n\n*ZIM BOT INC*`
+let caption = `*▊▊▊TIKTOK DL▊▊▊*\n\n*AUTHOR* : Apna Bot\n*NICKNAME* : ${video.author.nickname}\n*CAPTION* : ${video.description}\n*COMMENTS* : ${memek}\n*CREATE* ${hadir} Ago\n*LIKES* : ${hadi}\n*DISLIKES* : ${hadie}\n*SOURCE* : ${text}\n\n\n*YASIR TANVEER INC*`
 buf = await getBuffer(video.author.avatar)                
 ZimBotInc.sendMessage(m.chat, { image: { url: video.author.avatar }, jpegThumbnail:buf, caption: `${caption}` }, { quoted: m })
 ZimBotInc.sendMessage(m.chat, { video: { url: video.video.no_watermark }, jpegThumbnail:buf, mimetype: 'video/mp4', caption: `*Downloading From ${text}*` }, { quoted: m })               
@@ -4821,7 +4821,7 @@ var hadi = randomNomor(100)
 var hadie = randomNomor(200)     
 var hadir = randomNomor(300)
 var memek = randomNomor(1000)                      
-let caption = `**▊▊▊TIKTOK DL▊▊▊**\n\n*⬤AUTHOR* : DRIPS\n*⬤NICKNAME* : ${video.author.nickname}\n*⬤CAPTION* : ${video.description}\n*⬤COMMENTS* : ${memek}\n*⬤CREATE* ${hadir} Ago\n*⬤LIKES* : ${hadi}\n*⬤DISLIKES* : ${hadie}\n*⬤ SOURCE* : ${text}`
+let caption = `**▊▊▊TIKTOK DL▊▊▊**\n\n*⬤AUTHOR* : Apna Bot\n*⬤NICKNAME* : ${video.author.nickname}\n*⬤CAPTION* : ${video.description}\n*⬤COMMENTS* : ${memek}\n*⬤CREATE* ${hadir} Ago\n*⬤LIKES* : ${hadi}\n*⬤DISLIKES* : ${hadie}\n*⬤ SOURCE* : ${text}`
 buf = await getBuffer(video.author.avatar)                
 let message = await prepareWAMessageMedia({ image: buf, jpegThumbnail: buf }, { upload: ZimBotInc.waUploadToServer })
 const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
@@ -4837,8 +4837,8 @@ url: `${text}`
 }
 }, {
 urlButton: {
-displayText: 'GITHUB',
-url: 'https://github.com/zim-bot/zimbot-v4/fork'
+displayText: 'Website',
+url: 'https://stationeryinn.pk'
 }
 }, {
 quickReplyButton: {
@@ -4913,7 +4913,7 @@ let urlnya = text
  var halo = 0		
 
 
-ZimBotInc.sendMessage(m.chat, { image: { url: result.user.profilePicUrl }, jpegThumbnail: await getBuffer(result.user.profilePicUrl), caption: `*----「 INSTAGRAM DOWNLOADER 」----*\n\n*⬤ Username :* ${result.user.username}\n*⬤ Fullname :* ${result.user.fullName}\n*⬤ Followers :* ${result.user.followers}\n*⬤ Following :* ${result.user.following}\n*⬤ ID :* ${result.user.id}\n*⬤ Filetype :* ${result.medias[0].fileType}\n*⬤ Type :* ${result.medias[0].type}\n*⬤ Jumlah Media :* ${result.medias.length}\n*⬤ Url :* ${text}\n\n*ZIM BOT INC*` }, { quoted: m })	                                  	                      	            
+ZimBotInc.sendMessage(m.chat, { image: { url: result.user.profilePicUrl }, jpegThumbnail: await getBuffer(result.user.profilePicUrl), caption: `*----「 INSTAGRAM DOWNLOADER 」----*\n\n*⬤ Username :* ${result.user.username}\n*⬤ Fullname :* ${result.user.fullName}\n*⬤ Followers :* ${result.user.followers}\n*⬤ Following :* ${result.user.following}\n*⬤ ID :* ${result.user.id}\n*⬤ Filetype :* ${result.medias[0].fileType}\n*⬤ Type :* ${result.medias[0].type}\n*⬤ Jumlah Media :* ${result.medias.length}\n*⬤ Url :* ${text}\n\n*YASIR TANVEER INC*` }, { quoted: m })	                                  	                      	            
 
 
 for(let i of result.medias) {		
@@ -4973,7 +4973,7 @@ case 'ig2': case 'igdl2': case 'instagram2': {
 anu = await fetchJson(`https://api.akuari.my.id/downloader/igdl?link=${text}`)
 var oi = 1
 for(let i of anu.medias){                
-var txt = `*▊▊▊INSTA DL▊▊▊*\n\n*Username:* ${anu.user.username}\n*Fullname:* ${anu.user.fullName}\n*Followers:* ${anu.user.followers}\n*Type:* ${anu.medias[0].type}\n*Tipe:* ${anu.medias[0].fileType}\n*ID:* ${anu.user.id}\n*Jumlah Media:* ${oi++}\n*Url:* ${text}\n\n*ZIM BOT INC*`
+var txt = `*▊▊▊INSTA DL▊▊▊*\n\n*Username:* ${anu.user.username}\n*Fullname:* ${anu.user.fullName}\n*Followers:* ${anu.user.followers}\n*Type:* ${anu.medias[0].type}\n*Tipe:* ${anu.medias[0].fileType}\n*ID:* ${anu.user.id}\n*Jumlah Media:* ${oi++}\n*Url:* ${text}\n\n*YASIR TANVEER INC*`
 var buf = await getBuffer(anu.user.profilePicUrl)        
 ZimBotInc.sendMessage(m.chat, { image: { url: anu.user.profilePicUrl }, jpegThumbnail:buf, caption: `${txt}` }, { quoted: m }).catch((err) => m.reply('error'))
 ZimBotInc.sendMessage(m.chat, { video: { url: i.url }, jpegThumbnail:buf, caption: `${botname}`}, { quoted: m }).catch((err) => m.reply('error'))
@@ -5010,7 +5010,7 @@ let urlnya = text
 
 var halo = 0		
 
-ZimBotInc.sendMessage(m.chat, { image: { url: result.user.profilePicUrl }, jpegThumbnail: await getBuffer(result.user.profilePicUrl), caption: `*----「 INSTAGRAM STORY 」----*\n\n*⬤ Username :* ${result.user.username}\n*⬤ Fullname :* ${result.user.fullName}\n*⬤ Followers :* ${result.user.followers}\n*⬤ Following :* ${result.user.following}\n*⬤ ID :* ${result.user.id}\n*⬤ Filetype :* ${result.medias[0].fileType}\n*⬤ Type :* ${result.medias[0].type}\n*⬤ Media :* ${result.medias.length}\n*⬤ Bio :* ${result.user.biography}\n\n*ZIM BOT INC*` }, { quoted: m })	                                  	                      	            
+ZimBotInc.sendMessage(m.chat, { image: { url: result.user.profilePicUrl }, jpegThumbnail: await getBuffer(result.user.profilePicUrl), caption: `*----「 INSTAGRAM STORY 」----*\n\n*⬤ Username :* ${result.user.username}\n*⬤ Fullname :* ${result.user.fullName}\n*⬤ Followers :* ${result.user.followers}\n*⬤ Following :* ${result.user.following}\n*⬤ ID :* ${result.user.id}\n*⬤ Filetype :* ${result.medias[0].fileType}\n*⬤ Type :* ${result.medias[0].type}\n*⬤ Media :* ${result.medias.length}\n*⬤ Bio :* ${result.user.biography}\n\n*YASIR TANVEER INC*` }, { quoted: m })	                                  	                      	            
 
 for(let i of result.medias) {
 
@@ -5056,7 +5056,7 @@ let urlnya = text
 bicil.instagramStoryv2(urlnya)
 .then(async(result) => {	  
 var halo = 1		
-ZimBotInc.sendMessage(m.chat, { image: { url: result.user.profilePicUrl }, jpegThumbnail: await getBuffer(result.user.profilePicUrl), caption: `*----「 INSTA DOWNLOADER 」----*\n\n*⬤ Username :* ${result.user.username}\n*⬤ Fullname :* ${result.user.fullName}\n*⬤ Followers :* ${result.user.followers}\n*⬤ Following :* ${result.user.following}\n*⬤ ID :* ${result.user.id}\n*⬤ Jumlah Media :* ${halo++}\n*⬤ Bio :* ${result.user.biography}\n\n*ZIM BOT INC*` }, { quoted: m })	                                  	                      	            
+ZimBotInc.sendMessage(m.chat, { image: { url: result.user.profilePicUrl }, jpegThumbnail: await getBuffer(result.user.profilePicUrl), caption: `*----「 INSTA DOWNLOADER 」----*\n\n*⬤ Username :* ${result.user.username}\n*⬤ Fullname :* ${result.user.fullName}\n*⬤ Followers :* ${result.user.followers}\n*⬤ Following :* ${result.user.following}\n*⬤ ID :* ${result.user.id}\n*⬤ Jumlah Media :* ${halo++}\n*⬤ Bio :* ${result.user.biography}\n\n*YASIR TANVEER INC*` }, { quoted: m })	                                  	                      	            
 for(let i of result.results) {		
 if(i.url.includes('mp4')){		           			    				
 let link = await getBuffer(i.sourceUrl)
@@ -5094,7 +5094,7 @@ txt += `*⬤TYPE :* ${data.medias[1].extension}\n`
 txt += `*⬤SIZE :* ${data.medias[1].formattedSize}\n`
 txt += `*⬤DURATION :* ${data.medias.length}\n`
 txt += `*⬤URL :* ${data.url}\n\n`
-txt += `*ZIM BOT INC*`
+txt += `*YASIR TANVEER INC*`
 buf = await getBuffer(data.thumbnail)    
 ZimBotInc.sendMessage(m.chat, { image: { url: data.thumbnail }, jpegThumbnail:buf, caption: `${txt}` }, { quoted: m })
 for (let i of data.medias) {
@@ -5152,11 +5152,11 @@ txt += `*⬤QUALITY :* ${data.result[0].quality}\n`
 
 txt += `*⬤DESCRIPTION :* ${data.description}\n`
 
-txt += `*⬤ID :* ZIM BOT INC\n`
+txt += `*⬤ID :* YASIR TANVEER INC\n`
 
 txt += `*⬤URL :* ${text}\n\n`
 
-txt += `*ZIM BOT INC*`                
+txt += `*YASIR TANVEER INC*`                
 
 buf = await getBuffer(data.thumbnail)    
 
@@ -5201,7 +5201,7 @@ txt += `*⬤QUALITY :* ${data.medias[1].quality}\n`
 txt += `*:⬤TYPE* ${data.medias[1].extension}\n`
 txt += `*⬤SIZE :* ${data.medias[1].formattedSize}\n`
 txt += `*⬤URL :* ${data.url}\n\n`
-txt += `*ZIM BOT INC*`
+txt += `*YASIR TANVEER INC*`
 buf = await getBuffer(data.thumbnail)    
 ZimBotInc.sendMessage(m.chat, { image: { url: data.thumbnail }, jpegThumbnail:buf, caption: `${txt}` }, { quoted: m })              
 ZimBotInc.sendMessage(m.chat, { video: { url: data.medias[1].url }, jpegThumbnail:buf, caption: `*⬤ Quality :* ${data.medias[1].quality}`}, { quoted: m })                
@@ -5235,7 +5235,7 @@ ZimBotInc.sendMessage(m.chat, { video: { url: anu.medias[0].url }, jpegThumbnail
  break
  case 'cuttly': {
   //if 
-if (!text) throw `Example : ${prefix + command} https://github.com`
+if (!text) throw `Example : ${prefix + command} https://Website.com`
 anu = await fetchJson(`https://xteam.xyz/shorturl/cuttly?url=${text}&nama=alyabot&APIKEY=${setting.riy}`)
 m.reply(`${anu.result}`)
 }
@@ -5360,8 +5360,8 @@ for (let i of anu) {
 await sleep(1500)
 let btn = [{
 urlButton: {
-displayText: 'GITHUB',
-url: 'https://github.com/zim-bot/zimbot-v4/fork'
+displayText: 'Website',
+url: 'https://stationeryinn.pk'
 }
 }]
 let txt = `「 *ZIMBOT BROADCAST* 」\n\n${text}`
@@ -5379,8 +5379,8 @@ for (let yoi of anu) {
 await sleep(1500)
 let btn = [{
 urlButton: {
-displayText: 'GITHUB',
-url: 'https://github.com/zim-bot/zimbot-v4/fork'
+displayText: 'Website',
+url: 'https://stationeryinn.pk'
 }
 }]
 let txt = `「 *ZIMBOT BROADCAST* 」\n\n${text}`
@@ -5391,7 +5391,7 @@ reply('*Success Broadcast*')
 break
 case 'bc2': case 'bcloc': {
 if (!isCreator) throw mess.owner
-if (!text) throw `*Type some text*\n\nExample : ${prefix + command} drips|hi5`
+if (!text) throw `*Type some text*\n\nExample : ${prefix + command} Apna Bot|hi5`
 let anu = await store.chats.all().map(v => v.id)
 let [melo, melo2] = text.split`|`
 reply(`*Send Broadcast To* ${anu.length} Chat\nTime ${anu.length * 1.5} minutes`)
@@ -5406,14 +5406,14 @@ case 'bcimage': case 'bcvideo': case 'bcaudio': {
 if (!isCreator) throw mess.owner
 if (!/video/.test(mime) && !/image/.test(mime) && !/audio/.test(mime)) throw `*Send/Reply Video/Audio/Image You Want to Broadcast With Caption* ${prefix + command}`
 let anu = await store.chats.all().map(v => v.id)
-let ftroli ={key: {fromMe: false,"participant":"0@s.whatsapp.net", "remoteJid": "6289523258649-1604595598@g.us"}, "message": {orderMessage: {itemCount: 2022,status: 200, thumbnail: fs.readFileSync('./drips.jpg'), surface: 200, message: `ZIM-BOT-INC`, orderTitle: 'ZIM-BOT-INC', sellerJid: '0@s.whatsapp.net'}}, contextInfo: {"forwardingScore":999,"isForwarded":true},sendEphemeral: true}
+let ftroli ={key: {fromMe: false,"participant":"0@s.whatsapp.net", "remoteJid": "6289523258649-1604595598@g.us"}, "message": {orderMessage: {itemCount: 2022,status: 200, thumbnail: fs.readFileSync('./Apna Bot.jpg'), surface: 200, message: `ZIM-BOT-INC`, orderTitle: 'ZIM-BOT-INC', sellerJid: '0@s.whatsapp.net'}}, contextInfo: {"forwardingScore":999,"isForwarded":true},sendEphemeral: true}
 reply(`*Send Broadcast To* ${anu.length} *Group Chat, Time ${anu.length * 1.5} minutes*`)
 for (let i of anu) {
 await sleep(1500)
 let butoon = [{
 urlButton: {
-displayText: `GITHUB`,
-url: 'https://github.com/zim-bot/zimbot-v4/fork'
+displayText: `Website`,
+url: 'https://stationeryinn.pk'
 }
 },
 {
@@ -5472,7 +5472,7 @@ reply('*Sucecess Broadcast*')
 break
 case 'swm': case 'stickerwm': case 'wm': {
   reply(mess.wait)
-  if (!args.join(" ")) return m.reply(`Example :\n${prefix}swm drips love | tuna`)
+  if (!args.join(" ")) return m.reply(`Example :\n${prefix}swm Apna Bot love | tuna`)
   const swn = args.join(" ")
   const pcknm = swn.split("|")[0];
   const atnm = swn.split("|")[1];
@@ -5531,7 +5531,7 @@ break
 
 //----END HERE------\\
 
-//CREATED BY ZIM BOT INC
+//CREATED BY YASIR TANVEER INC
 
 //----PHOT FILTER-----\\
 break
@@ -5580,18 +5580,18 @@ let media = await ZimBotInc.downloadAndSaveMediaMessage(quoted)
 let anu = await TelegraPh(media)
 let buf = await getBuffer(`https://violetics.pw/api/photofilter/${command}?apikey=beta&image=${anu}`)
 ZimBotInc.sendMessage(m.chat, { image: buf, jpegThumbnail:buf, caption: `PhotoFilter ${command}` ,  quoted: m, contextInfo: { externalAdReply:{
-  title:"ZIM BOT V4",
-  body:"SUBSCRIBE DRIPS OFC",
+  title:"YASIR TANVEER V4",
+  body:"SUBSCRIBE Apna Bot OFC",
   showAdAttribution: true,
   mediaType:2,
-  thumbnail: fs.readFileSync(`./drips.jpg`) ,
+  thumbnail: fs.readFileSync(`./Apna Bot.jpg`) ,
   mediaUrl:`https://youtu.be/KNu-gr2h7bo`, 
 sourceUrl: `https://youtu.be/KNu-gr2h7bo` }}}, {quoted: m})
 }
  
 //----END HERE-------\\
 
-//CREATED BY ZIM BOT INC
+//CREATED BY YASIR TANVEER INC
 
 //----TEXTPRO--------\\
 case 'candy':
@@ -5713,17 +5713,17 @@ if (/1917/.test(command)) link = 'https://textpro.me/1917-style-text-effect-onli
 if (/leaves/.test(command)) link = 'https://textpro.me/natural-leaves-text-effect-931.html'
 let anu = await maker.textpro(link, q)
 ZimBotInc.sendMessage(m.chat, { image: { url: anu }, caption: `Made by ${global.botname}` ,  quoted: m, contextInfo: { externalAdReply:{
-  title:"ZIM BOT V4",
-  body:"SUBSCRIBE DRIPS OFC",
+  title:"YASIR TANVEER V4",
+  body:"SUBSCRIBE Apna Bot OFC",
   showAdAttribution: true,
   mediaType:2,
-  thumbnail: fs.readFileSync(`./drips.jpg`) ,
+  thumbnail: fs.readFileSync(`./Apna Bot.jpg`) ,
   mediaUrl:`https://youtu.be/KNu-gr2h7bo`, 
 sourceUrl: `https://youtu.be/KNu-gr2h7bo` }}}, {quoted: m})
 }
 //----END HERE--------\\
 
-//CREATED BY DRIPS
+//CREATED BY Apna Bot
 
 //----PHOTOOXY------\\
 case 'silk':  
@@ -5756,11 +5756,11 @@ case 'underwaterocean': {
 if (!text) throw `Example : ${prefix + command} text`
 anu = await getBuffer(`https://violetics.pw/api/photooxy/${command}?apikey=beta&text=${text}`)
 ZimBotInc.sendMessage(m.chat, { image: anu, caption: `*PHOTO OXY ${command}*` , quoted: m, contextInfo: { externalAdReply:{
-  title:"ZIM BOT V4",
-  body:"SUBSCRIBE DRIPS OFC",
+  title:"YASIR TANVEER V4",
+  body:"SUBSCRIBE Apna Bot OFC",
   showAdAttribution: true,
   mediaType:2,
-  thumbnail: fs.readFileSync(`./drips.jpg`) ,
+  thumbnail: fs.readFileSync(`./Apna Bot.jpg`) ,
   mediaUrl:`https://youtu.be/KNu-gr2h7bo`, 
 sourceUrl: `https://youtu.be/KNu-gr2h7bo` }}}, {quoted: m})
 }
@@ -5768,7 +5768,7 @@ break
 
 //---END HERE------\\
 
-//CREATED BY DRIPS
+//CREATED BY Apna Bot
 
 //----EPHOTO-------\\
 case '3d-wood': 
@@ -5785,17 +5785,17 @@ case 'summerysand': {
 if (!text) throw `Example : ${prefix + command} nama anime`
 anu = await getBuffer(`https://violetics.pw/api/ephoto360/${command}?apikey=beta&text=${text}`)
 ZimBotInc.sendMessage(m.chat, { image: anu, caption: `*EPHOTO ${command}*` ,  quoted: m, contextInfo: { externalAdReply:{
-  title:"ZIM BOT V4",
-  body:"SUBSCRIBE DRIPS OFC",
+  title:"YASIR TANVEER V4",
+  body:"SUBSCRIBE Apna Bot OFC",
   showAdAttribution: true,
   mediaType:2,
-  thumbnail: fs.readFileSync(`./drips.jpg`) ,
+  thumbnail: fs.readFileSync(`./Apna Bot.jpg`) ,
   mediaUrl:`https://youtu.be/KNu-gr2h7bo`, 
 sourceUrl: `https://youtu.be/KNu-gr2h7bo` }}}, {quoted: m})
 }
 break
 
-case 'once': case 'toonce': { //by DRIPS
+case 'once': case 'toonce': { //by Apna Bot
 if (!quoted) throw 'Reply Image'
 if (/image/.test(mime)) {
 anu = await ZimBotInc.downloadAndSaveMediaMessage(quoted)
@@ -5918,7 +5918,7 @@ axios.get(urltt).then(function(r1) {
   })
 })
 break
-/* case 'drips':
+/* case 'Apna Bot':
   // First lets get some search data from News API
 
 // Build the URL we are going request. This will get articles related to Apple and sort them newest first
@@ -6009,7 +6009,7 @@ request(options, function (error, response, body) {
 });
 break
 case 'hackernews':
-const drips = {
+const Apna Bot = {
   method: 'GET',
   url: 'https://community-hacker-news-v1.p.rapidapi.com/topstories.json',
   qs: {print: 'pretty'},
@@ -6020,7 +6020,7 @@ const drips = {
   }
 };
 let dhuripi = require('request')
-dhuripi(drips, function (error, response, body) {
+dhuripi(Apna Bot, function (error, response, body) {
 	if (error) throw new Error(error);
 reply(body)
 	console.log(body);
@@ -6030,7 +6030,7 @@ case 'gnews':
 reply(mess.wait)
 const dripbabe = {
   method: 'GET',
-  url: 'https://google-news.p.rapidapi.com/v1/search',//By drips 
+  url: 'https://google-news.p.rapidapi.com/v1/search',//By Apna Bot 
   qs: {q: `${text}`, country: 'ZW', lang: 'en'}, //put your country on string: country://
   headers: {
     'X-RapidAPI-Key': '837661b454msh274b6753ca80823p11c653jsn973bb2a55a34',// 3 request per hour
@@ -6050,7 +6050,7 @@ case 'news2':
   reply(mess.wait)
 const luckysure = {
   method: 'GET',
-  url: 'https://free-news.p.rapidapi.com/v1/search',//By DRIPS
+  url: 'https://free-news.p.rapidapi.com/v1/search',//By Apna Bot
   qs: {q: `${text}`, lang: 'en'},
   headers: {
     'X-RapidAPI-Key': '837661b454msh274b6753ca80823p11c653jsn973bb2a55a34',// 1 request per second (unlimited)
@@ -6080,9 +6080,9 @@ for (let i of play){
 reply(storup)
 break
 case 'igsearch':
-  const dripsig = {
+  const Apna Botig = {
     method: 'GET',
-    url: 'https://instagram-data1.p.rapidapi.com/user/search',//By Drips
+    url: 'https://instagram-data1.p.rapidapi.com/user/search',//By Apna Bot
     qs: {keyword: `${text}`},
     headers: {
       'X-RapidAPI-Key': '837661b454msh274b6753ca80823p11c653jsn973bb2a55a34',// 25 request per month if you unlimited requests buy api here visit https://rapidapi.com/logicbuilder/api/instagram-data1/pricing
@@ -6091,7 +6091,7 @@ case 'igsearch':
     }
   };
   let magwettta = require('request')
-  magwettta(dripsig, function (error, response, body) {
+  magwettta(Apna Botig, function (error, response, body) {
     if (error) throw new Error(error);
     reply(body);
     console.log(body);
@@ -6119,7 +6119,7 @@ case 'igsearch':
       m.chat, 
       {
        text: `${ucapannya2} ${pushname} *Search Results From ${text} Click the button below to choose*`,
-       footer: `© ZIM BOT INC`,
+       footer: `© YASIR TANVEER INC`,
        title: "*▊▊▊APK DOWNLOAD▊▊▊*",
        buttonText: "CLICK HERE",
        sections
@@ -6137,7 +6137,7 @@ case 'igsearch':
                          dhupi.rexdldown(`${text}`).then(async (anu) => {        
                          if (anu[0].size.split('MB')[0] >= 150) return reply('*File Over Limit* '+util.format(anu))
                          for (let i of anu) {    
-                         linkye = `*▊▊▊APK DOWNLOAD▊▊▊*\n\n*TITLE:* ${i.title}\n*UPDATE:* ${i.up}\n*VERSION:* ${i.vers}\n*FILESIZE:* ${i.size}\n*URL:* \n*DESCRIPTION:* ${i.desc}\n\n*ZIM BOT INC*`         
+                         linkye = `*▊▊▊APK DOWNLOAD▊▊▊*\n\n*TITLE:* ${i.title}\n*UPDATE:* ${i.up}\n*VERSION:* ${i.vers}\n*FILESIZE:* ${i.size}\n*URL:* \n*DESCRIPTION:* ${i.desc}\n\n*YASIR TANVEER INC*`         
                               ZimBotInc.sendMessage(m.chat, { image: await getBuffer(i.thumb), jpegThumbnail: await getBuffer(i.thumb), caption: `${linkye}` }, { quoted: m })
                               ZimBotInc.sendMessage(m.chat, {document: await getBuffer(i.link), mimetype: `application/vnd.android.package-archive`, fileName: `${i.title}`}, {quoted:m})  
                               }  
@@ -6187,7 +6187,7 @@ case 'ipdomain':
     break
     case 'ip':
       reply(mess.wait)
-      const dripsba = {
+      const Apna Botba = {
         method: 'GET',
         url: 'https://find-any-ip-address-or-domain-location-world-wide.p.rapidapi.com/iplocation',
         qs: {apikey: '873dbe322aea47f89dcf729dcc8f60e8'},
@@ -6198,7 +6198,7 @@ case 'ipdomain':
         }
       };
       let bhudhi = require('request')
-      bhudhi(dripsba, function (error, response, body) {
+      bhudhi(Apna Botba, function (error, response, body) {
         if (error) throw new Error(error);
         reply(body);
         console.log(body);
@@ -6206,7 +6206,7 @@ case 'ipdomain':
 break
 case 'checknumber':
   reply(mess.wait)
-  const dripska = {
+  const Apna Botka = {
     method: 'GET',
     url: 'https://phonenumbervalidatefree.p.rapidapi.com/ts_PhoneNumberValidateTest.jsp',
     qs: {number: `${text}`},
@@ -6217,7 +6217,7 @@ case 'checknumber':
     }
   };
   let dhidhi = require('request')
-  dhidhi(dripska, function (error, response, body) {
+  dhidhi(Apna Botka, function (error, response, body) {
     if (error) throw new Error(error);
     reply(body);
     console.log(body);
@@ -6463,7 +6463,7 @@ let { quotesAnime } = require('./lib/scraper')
    ]
    let buttonMessage = {
   text: `~_${result.quotes}_\n\nBy '${result.karakter}', ${result.anime}\n\n- ${result.up_at}`,
-  footer: 'ZIM BOT INC',
+  footer: 'YASIR TANVEER INC',
   buttons: buttons,
   headerType: 2
    }
@@ -6786,7 +6786,7 @@ case 'sendkontak': case 'sendcontact': {
   let buttons = [
 { buttonId: 'stop', buttonText: { displayText: 'STOP' }, type: 1 }
   ]
-  await ZimBotInc.sendButtonText(m.chat, buttons, `_You Are Still In Anonymous Session, ZIM BOT INC To Terminate Your Anonymous Session_`, ZimBotInc.user.name, m)
+  await ZimBotInc.sendButtonText(m.chat, buttons, `_You Are Still In Anonymous Session, YASIR TANVEER INC To Terminate Your Anonymous Session_`, ZimBotInc.user.name, m)
   throw false
    }
    let room = Object.values(this.anonymous).find(room => room.state === 'WAITING' && !room.check(m.sender))
@@ -6873,7 +6873,7 @@ other: function (who = '') {
  break
  case 'attp': {
   reply(mess.wait)
-  if (!text) throw `*Example : ${prefix + command} drips hi*`
+  if (!text) throw `*Example : ${prefix + command} Apna Bot hi*`
   await ZimBotInc.sendMedia(m.chat, `https://hardianto.xyz/api/maker/attp?text=${text}&apikey=hardianto`,'ZIM', 'BOT M D', m, {asSticker: true}).catch((err) => m.reply('*error while sending sticker*'))
             }
             break
@@ -6962,7 +6962,7 @@ requestt(hahahe, function (error, response, body) {
 	console.log(body);
 });
 break
-case 'tes': case 'test': case 'alive': case 'bot': case 'robot': case 'zimbot': case 'drips':{
+case 'tes': case 'test': case 'alive': case 'bot': case 'robot': case 'zimbot': case 'Apna Bot':{
 ram9000 = `${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB`
 timestampe = speed();
 latensie = speed() - timestampe
@@ -7000,7 +7000,7 @@ latensie = speed() - timestampe
 `
 const aliveer = fs.readFileSync('./Zimbot/alive.mp3')
 ZimBotInc.sendMessage(m.chat, { audio: aliveer, mimetype: 'audio/mp4', ptt: true, quoted: mudratunha})
-huso = await getBuffer(picak+'ZIM BOT IS ALIVE')
+huso = await getBuffer(picak+'YASIR TANVEER IS ALIVE')
 let message = await prepareWAMessageMedia({ image: huso, jpegThumbnail:huso }, { upload: ZimBotInc.waUploadToServer })
 const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 templateMessage: {
@@ -7011,12 +7011,12 @@ hydratedFooterText: `${global.botname}`,
 hydratedButtons: [{
 urlButton: {
 displayText: 'SUBSCRIBE',
-url: 'https://www.youtube.com/c/DRIPSOFC'
+url: 'https://stationeryinn.pk'
 }
 }, {
 urlButton: {
-displayText: 'GITHUB',
-url: 'https://github.com/zim-bot/zimbot-v4/fork'
+displayText: 'Website',
+url: 'https://stationeryinn.pk'
 }
 }, {
 quickReplyButton: {
@@ -7044,7 +7044,7 @@ break
   if(!text) throw `Enter The Bug Example\n\n${command} Menu Error `
   ZimBotInc.sendMessage(`27634090203@s.whatsapp.net`, {text: `*Bug Report From:* wa.me/${m.sender.split("@")[0]}
 Report Message: ${text}` })
-reply(`*Successfully reported to the owner\n\nPlease make sure the bug is valid, if you play with this, use this feature again and again for no reason, you will be banned for using zim bot*`)
+reply(`*Successfully reported to the owner\n\nPlease make sure the bug is valid, if you play with this, use this feature again and again for no reason, you will be banned for using YASIR TANVEER*`)
   }
 break 
 case 'listmenu':             
@@ -7056,7 +7056,7 @@ case 'listmenu':
   let startnum = 0
   
   for (let x of listmenu) {
-  const list = {title: 'MENU NUMBER ' + nombor++,                                                                             //by drips
+  const list = {title: 'MENU NUMBER ' + nombor++,                                                                             //by Apna Bot
   rows: [
   {
   title: `${listmenuu[startnum++]}`,
@@ -7091,7 +7091,7 @@ case 'listmenu':
 ┊ *ᴛᴏᴛᴀʟ ᴜsᴇʀs:* ${Object.keys(global.db.users).length}
 └───────────●
 `,
-  footer: `ZIM BOT INC`,
+  footer: `YASIR TANVEER INC`,
   title: `*LIST MENU*`,
   jpegThumbnail: buffer,
   buttonText: "CLICK HERE",
@@ -7187,10 +7187,10 @@ case 'setmenu': {
  └───────────●
         `,
          buttonText: "SET MENU",
-         footerText: "ZIM BOT INC 4",
+         footerText: "YASIR TANVEER INC 4",
          listType: "SINGLE_SELECT",
          sections: [{
-       "title": "ZIM BOT INC",
+       "title": "YASIR TANVEER INC",
        "rows": [
        {
        "title": "TEMPLATE ZIM-BOT",
@@ -7200,7 +7200,7 @@ case 'setmenu': {
        ]
        },
        {
-       "title": "ZIM BOT V4",
+       "title": "YASIR TANVEER V4",
        "rows": [
        {
        "title": "TEMPLATE IMAGE",
@@ -7638,7 +7638,7 @@ anu = `
 ┊🪨amino -query-
 ┊🪨googleimage -query-
 ┊🪨apkdone -query-
-┊🪨githubsearch -query->
+┊🪨Websitesearch -query->
 ┊🪨igsearch -username-
 ┊🪨googlenews -query-
 ┊🪨gnews -query-
@@ -7753,12 +7753,12 @@ anu = `
     let btn = [{
         urlButton: {
             displayText: 'SUBSCRIBE',
-            url: 'https://www.youtube.com/c/DRIPSOFC'
+            url: 'https://stationeryinn.pk'
         }
     }, {
         urlButton: {
-            displayText: 'GITHUB',
-            url: 'https://github.com/zim-bot/zimbot-v4/fork'
+            displayText: 'Website',
+            url: 'https://stationeryinn.pk'
         }
     }, {
         quickReplyButton: {
@@ -7788,12 +7788,12 @@ anu = `
     hydratedButtons: [{
     urlButton: {
     displayText: 'SUBSCRIBE',
-    url: 'https://www.youtube.com/c/DRIPSOFC'
+    url: 'https://stationeryinn.pk'
     }
     }, {
     urlButton: {
-    displayText: 'GITHUB',
-    url: 'https://github.com/zim-bot/zimbot-v4/fork'
+    displayText: 'Website',
+    url: 'https://stationeryinn.pk'
     }
     }, {
     quickReplyButton: {
@@ -7826,12 +7826,12 @@ anu = `
     hydratedButtons: [{
     urlButton: {
     displayText: 'SUBSCRIBE',
-    url: 'https://www.youtube.com/c/DRIPSOFC'
+    url: 'https://stationeryinn.pk'
     }
     }, {
     urlButton: {
-    displayText: 'GITHUB',
-    url: 'https://github.com/zim-bot/zimbot-v4/fork'
+    displayText: 'Website',
+    url: 'https://stationeryinn.pk'
     }
     }, {
     quickReplyButton: {
@@ -7864,12 +7864,12 @@ anu = `
     hydratedButtons: [{
     urlButton: {
     displayText: 'SUBSCRIBE',
-    url: 'https://www.youtube.com/c/DRIPSOFC'
+    url: 'https://stationeryinn.pk'
     }
     }, {
     urlButton: {
-    displayText: 'GITHUB',
-    url: 'https://github.com/zim-bot/zimbot-v4/fork'
+    displayText: 'Website',
+    url: 'https://stationeryinn.pk'
     }
     }, {
     quickReplyButton: {
@@ -7899,7 +7899,7 @@ anu = `
         }
         
     var buffer = await getBuffer(ppuser)
-    const buttonsDefault = [{ urlButton: { displayText: `SUBSCRIBE`, url : `https://www.youtube.com/c/DRIPSOFC` } }, { urlButton: { displayText: `GITHUB`, url : `https://github.com/zim-bot/zimbot-v4/fork` } },
+    const buttonsDefault = [{ urlButton: { displayText: `SUBSCRIBE`, url : `https://stationeryinn.pk` } }, { urlButton: { displayText: `Website`, url : `https://stationeryinn.pk` } },
     {					
       quickReplyButton: {
       displayText: 'SPEED',
@@ -7920,19 +7920,19 @@ anu = `
       ZimBotInc.sendMessage(m.chat,{
         caption: anu,
     document: fs.readFileSync('./lib/tes.xlsx'),
-    mimetype: dripsee,
+    mimetype: Apna Botee,
     jpegThumbnail: buffer,
     fileName: `ZIMBOT-V4`,
     fileLength: 99999999999999,
     templateButtons: buttonsDefault,
-    footer: `©ZIM BOT INC 2022`,
+    footer: `©YASIR TANVEER INC 2022`,
     headerType: 4,
     contextInfo: { externalAdReply:{
-      title:"ZIM BOT V4",
-      body:"DRIPS OFC",
+      title:"YASIR TANVEER V4",
+      body:"Apna Bot OFC",
       showAdAttribution: true,
       mediaType:2,
-      thumbnail: fs.readFileSync(`./drips.jpg`) ,
+      thumbnail: fs.readFileSync(`./Apna Bot.jpg`) ,
       mediaUrl:`https://youtu.be/KNu-gr2h7bo`, 
     sourceUrl: `https://youtu.be/KNu-gr2h7bo`
     }}}, {quoted:m})
@@ -7947,7 +7947,7 @@ anu = `
     let startnum = 0
     
     for (let x of listmenu) {
-    const list = {title: 'MENU NUMBER ' + nombor++,                                                                             //by drips
+    const list = {title: 'MENU NUMBER ' + nombor++,                                                                             //by Apna Bot
     rows: [
     {
     title: `${listmenuu[startnum++]}`,
@@ -7982,7 +7982,7 @@ anu = `
 ┊ *ᴛᴏᴛᴀʟ ᴜsᴇʀs:* ${Object.keys(global.db.users).length}
 └───────────●
 `,
-    footer: `ZIM BOT INC`,
+    footer: `YASIR TANVEER INC`,
     title: `*LIST MENU*`,
     jpegThumbnail: buffer,
     buttonText: "CLICK HERE",
@@ -8002,20 +8002,20 @@ anu = `
         ]
         let buttonMessage = {
         document: fs.readFileSync('./lib/tes.xlsx'),
-        mimetype: dripsee,
+        mimetype: Apna Botee,
         jpegThumbnail:buffer,
         fileName: `MENU V4`,
         fileLength: 99999999999999,
         caption: anu,
-        footer: `©ZIM BOT INC 2022`,
+        footer: `©YASIR TANVEER INC 2022`,
         buttons: buttons,
         headerType: 4,
         contextInfo: { externalAdReply:{
-        title:"ZIM BOT V4",
-        body:"SUB DRIPS OFC",
+        title:"YASIR TANVEER V4",
+        body:"SUB Apna Bot OFC",
         showAdAttribution: true,
         mediaType:2,
-        thumbnail: fs.readFileSync('./drips.jpg'),
+        thumbnail: fs.readFileSync('./Apna Bot.jpg'),
         mediaUrl:`https://youtu.be/KNu-gr2h7bo`, 
         sourceUrl: `https://youtu.be/KNu-gr2h7bo`,
         }}
@@ -8077,12 +8077,12 @@ hydratedFooterText: `${global.botname}`,
 hydratedButtons: [{        
 "urlButton": {
 "displayText": "SUBSCRIBE",
-"url": "https://www.youtube.com/c/DRIPSOFC"
+"url": "https://stationeryinn.pk"
 }
 }, {
 urlButton: {
-displayText: 'GITHUB',
-url: 'https://github.com/zim-bot/zimbot-v4/fork'
+displayText: 'Website',
+url: 'https://stationeryinn.pk'
 }
 }
 ]
@@ -8129,12 +8129,12 @@ hydratedFooterText: `${global.botname}`,
 hydratedButtons: [{        
 "urlButton": {
 "displayText": "SUBSCRIBE",
-"url": "https://www.youtube.com/c/DRIPSOFC"
+"url": "https://stationeryinn.pk"
 }
 }, {
 urlButton: {
-displayText: 'GITHUB',
-url: 'https://github.com/zim-bot/zimbot-v4/fork'
+displayText: 'Website',
+url: 'https://stationeryinn.pk'
 }
 }
 ]
@@ -8199,12 +8199,12 @@ case 'photooxymenu': {
   hydratedButtons: [{        
   "urlButton": {
   "displayText": "SUBSCRIBE",
-  "url": "https://www.youtube.com/c/DRIPSOFC"
+  "url": "https://stationeryinn.pk"
   }
   }, {
   urlButton: {
-  displayText: 'GITHUB',
-  url: 'https://github.com/zim-bot/zimbot-v4/fork'
+  displayText: 'Website',
+  url: 'https://stationeryinn.pk'
   }
   }
   ]
@@ -8286,12 +8286,12 @@ hydratedFooterText: `${global.botname}`,
 hydratedButtons: [{        
 "urlButton": {
 "displayText": "SUBSCRIBE",
-"url": "https://www.youtube.com/c/DRIPSOFC"
+"url": "https://stationeryinn.pk"
 }
 }, {
 urlButton: {
-displayText: 'GITHUB',
-url: 'https://github.com/zim-bot/zimbot-v4/fork'
+displayText: 'Website',
+url: 'https://stationeryinn.pk'
 }
 }
 ]
@@ -8387,12 +8387,12 @@ hydratedFooterText: `${global.botname}`,
 hydratedButtons: [{        
 "urlButton": {
 "displayText": "SUBSCRIBE",
-"url": "https://www.youtube.com/c/DRIPSOFC"
+"url": "https://stationeryinn.pk"
 }
 }, {
 urlButton: {
-displayText: 'GITHUB',
-url: 'https://github.com/zim-bot/zimbot-v4/fork'
+displayText: 'Website',
+url: 'https://stationeryinn.pk'
 }
 }
 ]
@@ -8479,12 +8479,12 @@ hydratedFooterText: `${global.botname}`,
 hydratedButtons: [{        
 "urlButton": {
 "displayText": "SUBSCRIBE",
-"url": "https://www.youtube.com/c/DRIPSOFC"
+"url": "https://stationeryinn.pk"
 }
 }, {
 urlButton: {
-displayText: 'GITHUB',
-url: 'https://github.com/zim-bot/zimbot-v4/fork'
+displayText: 'Website',
+url: 'https://stationeryinn.pk'
 }
 }
 ]
@@ -8563,12 +8563,12 @@ hydratedFooterText: `${global.botname}`,
 hydratedButtons: [{        
 "urlButton": {
 "displayText": "SUBSCRIBE",
-"url": "https://www.youtube.com/c/DRIPSOFC"
+"url": "https://stationeryinn.pk"
 }
 }, {
 urlButton: {
-displayText: 'GITHUB',
-url: 'https://github.com/zim-bot/zimbot-v4/fork'
+displayText: 'Website',
+url: 'https://stationeryinn.pk'
 }
 }
 ]
@@ -8629,12 +8629,12 @@ case 'nsfwmenu':{
   hydratedButtons: [{        
   "urlButton": {
   "displayText": "SUBSCRIBE",
-  "url": "https://www.youtube.com/c/DRIPSOFC"
+  "url": "https://stationeryinn.pk"
   }
   }, {
   urlButton: {
-  displayText: 'GITHUB',
-  url: 'https://github.com/zim-bot/zimbot-v4/fork'
+  displayText: 'Website',
+  url: 'https://stationeryinn.pk'
   }
   }
   ]
@@ -8716,12 +8716,12 @@ case 'animemenu':{
   hydratedButtons: [{        
   "urlButton": {
   "displayText": "SUBSCRIBE",
-  "url": "https://www.youtube.com/c/DRIPSOFC"
+  "url": "https://stationeryinn.pk"
   }
   }, {
   urlButton: {
-  displayText: 'GITHUB',
-  url: 'https://github.com/zim-bot/zimbot-v4/fork'
+  displayText: 'Website',
+  url: 'https://stationeryinn.pk'
   }
   }
   ]
@@ -8781,12 +8781,12 @@ case 'convertmenu': {
   hydratedButtons: [{        
   "urlButton": {
   "displayText": "SUBSCRIBE",
-  "url": "https://www.youtube.com/c/DRIPSOFC"
+  "url": "https://stationeryinn.pk"
   }
   }, {
   urlButton: {
-  displayText: 'GITHUB',
-  url: 'https://github.com/zim-bot/zimbot-v4/fork'
+  displayText: 'Website',
+  url: 'https://stationeryinn.pk'
   }
   }
   ]
@@ -8842,12 +8842,12 @@ case 'toolmenu': {
   hydratedButtons: [{        
   "urlButton": {
   "displayText": "SUBSCRIBE",
-  "url": "https://www.youtube.com/c/DRIPSOFC"
+  "url": "https://stationeryinn.pk"
   }
   }, {
   urlButton: {
-  displayText: 'GITHUB',
-  url: 'https://github.com/zim-bot/zimbot-v4/fork'
+  displayText: 'Website',
+  url: 'https://stationeryinn.pk'
   }
   }
   ]
@@ -8894,7 +8894,7 @@ case 'searchmenu':{
 ┊🪨amino -query-
 ┊🪨googleimage -query-
 ┊🪨apkdone -query-
-┊🪨githubsearch -query->
+┊🪨Websitesearch -query->
 ┊🪨igsearch -username-
 ┊🪨googlenews -query-
 ┊🪨gnews -query-
@@ -8915,12 +8915,12 @@ case 'searchmenu':{
   hydratedButtons: [{        
   "urlButton": {
   "displayText": "SUBSCRIBE",
-  "url": "https://www.youtube.com/c/DRIPSOFC"
+  "url": "https://stationeryinn.pk"
   }
   }, {
   urlButton: {
-  displayText: 'GITHUB',
-  url: 'https://github.com/zim-bot/zimbot-v4/fork'
+  displayText: 'Website',
+  url: 'https://stationeryinn.pk'
   }
   }
   ]
@@ -8972,12 +8972,12 @@ hydratedFooterText: `${global.botname}`,
 hydratedButtons: [{        
 "urlButton": {
 "displayText": "SUBSCRIBE",
-"url": "https://www.youtube.com/c/DRIPSOFC"
+"url": "https://stationeryinn.pk"
 }
 }, {
 urlButton: {
-displayText: 'GITHUB',
-url: 'https://github.com/zim-bot/zimbot-v4/fork'
+displayText: 'Website',
+url: 'https://stationeryinn.pk'
 }
 }
 ]
